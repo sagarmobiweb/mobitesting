@@ -25,49 +25,29 @@ function navigation() {
             <Nav className="mynav">
               <Nav.Item>
                 <Nav.Link>
-                  <Link to="/">Home</Link>
+                  <Link to="MW/">Home</Link>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link>
-                  <Link to="/about"> About Us</Link>
+                  <Link to="MW/about"> About Us</Link>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Item>
                   <Nav.Link>
-                    <Link to="/service">Services</Link>
- <NavDropdown id="nav-dropdown">
-                    <NavDropdown.Item>
-                      iOS Mobile App Development
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item>
-                      Android Mobile App Development
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item>
-                      Hybrid Mobile App Development
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item>
-                      Progressive Web App Development
-                    </NavDropdown.Item>
-                  </NavDropdown>
-
-
+                    <Link to="MW/service">Services</Link>
                   </Nav.Link>
-                 
                 </Nav.Item>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link>
-                  <Link to="#">Blog </Link>
+                  <Link to="MW/blog">Blog </Link>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link>
-                  <Link to="#">Contact Us </Link>
+                  <Link to="MW/contactus">Contact Us </Link>
                 </Nav.Link>
               </Nav.Item>
             </Nav>

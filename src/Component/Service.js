@@ -3,7 +3,9 @@ import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
-import Contactstripe from "./Contactstripe";
+import { Form } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+
 
 function Service() {
   return (
@@ -178,7 +180,43 @@ function Service() {
           </Col>
         </Row>
       </Container>
-      <Contactstripe/>
+ <div className="cbcnt  cntus-bg">
+        <Container className="mt-5 -flex flex-column justify-content-center  align-self-center">
+          <Row>
+            <Col sm={5}>
+              <div className="subscribebtn">
+                <div className="allheading ourvalues  ">
+                  <h3> CONTACT US</h3>
+                  <h2>
+                    Connect with us for <br></br>more information
+                  </h2>
+                </div>
+                <Form className="mt-3">
+                  <Form.Group className="mb-3" controlId="formBasicPassword">
+                    <Form.Control type="text" placeholder="Name" />
+                  </Form.Group>
+                  <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Control type="email" placeholder="Email" />
+                  </Form.Group>
+                  <Button className="cntbtn" type="submit">
+                    Send
+                  </Button>
+                </Form>
+              </div>
+            </Col>
+            <Col sm={7}>
+              <div className="imgcnt">
+                <img
+                  center
+                  src="./assets/image/newcontn.png"
+                  data-aos="zoom-out"
+                  alt="test"
+                ></img>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 }

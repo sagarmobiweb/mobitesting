@@ -4,7 +4,6 @@ import { Container, Row  } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import { FaUsers } from "react-icons/fa";
-import { RiLineChartFill } from "react-icons/ri";
 import { BsEmojiSmile,BsJournalRichtext,BsHeadphones } from "react-icons/bs";
 
 function Counter() {

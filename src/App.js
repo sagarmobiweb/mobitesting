@@ -20,10 +20,10 @@ function App() {
       <Header />
       <Routes>
         <Route path="MW/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/service" element={<Service />} />
-        <Route path="" element={<Blog />} />
-        <Route path="" element={<Contactus />} />
+        <Route path="MW/about" element={<About />} />
+        <Route path="MW/service" element={<Service />} />
+        <Route path="MW/blog" element={<Blog />} />
+        <Route path="MW/contactus" element={<Contactus />} />
       </Routes>
       <Footer />
     </BrowserRouter>

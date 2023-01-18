@@ -469,6 +469,10 @@ input {
       width: 100%;
 }
 
+.addresdetails {
+  padding-left: 51px;
+}
+
 @media only screen and (max-width: 767px) and (min-width: 320px) {
   .bnnr {
     height: 320vh;

@@ -8,8 +8,11 @@ import {
   RiLinkedinBoxFill,
   RiPinterestFill,
   RiTwitterFill,
-  RiFilePdfFill,
 } from "react-icons/ri";
+
+import { FaFilePdf } from "react-icons/fa";
+
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -32,12 +35,27 @@ function Footer() {
             <Col sm={3}>
               <div className=" allheading ">
                 <h2>USEFUL LINKS</h2>
-                <ul>
-                  <li>Home</li>
-                  <li>About Us</li>
-                  <li>Services</li>
-                  <li>Blog</li>
-                  <li>Contact Us</li>
+                <ul className="footermenu">
+                  <li>
+                    {" "}
+                    <Link to="/"> Home</Link>{" "}
+                  </li>
+                  <li>
+                    {" "}
+                    <Link to="/aboutus"> About Us</Link>
+                  </li>
+                  <li>
+                    {" "}
+                    <Link to="/service"> Services</Link>
+                  </li>
+                  <li>
+                    {" "}
+                    <Link to="/blog"> Blog</Link>
+                  </li>
+                  <li>
+                    {" "}
+                    <Link to="/contactus"> Contact Us</Link>
+                  </li>
                 </ul>
               </div>
             </Col>
@@ -56,19 +74,26 @@ function Footer() {
             <Col sm={3} className="d-flex flex-column ">
               <div className=" allheading ">
                 <h2>CONTACT US</h2>
-                <p>A108 Adam Street New York, NY 535022 United States</p>
-                <p>Phone:+918800403610</p>
-                <p>Email: info@example.com</p>
+                <p>
+                  DEVELOPMENT OFFICE: 
+                  SCO:142-143, Cabin No 412, 4th Floor,
+                  Sector 34 A (Backside of Sham Fashion Mall), Chandigarh,
+                  INDIA, 160022
+                  <p>Phone: <a  href={"tell:+918800403610"}  rel="noreferrer">+918800403610</a></p>
+                  <p>Email: <a  href={"mailto:sales@mobiwebcreations.com"}  rel="noreferrer">
+                     sales@mobiwebcreations.com
+                </a></p>
+                </p>
               </div>
             </Col>
           </Row>
-          <Row>
+          <Row className="mt-5">
             <Col sm={4}>
               {" "}
               <div className="social">
                 <a
                   target="_blank"
-                  href={"https://www.facebook.com/"}
+                  href={"https://www.facebook.com/mobiwebcreations/"}
                   rel="noreferrer"
                 >
                   <RiFacebookCircleFill />
@@ -76,7 +101,7 @@ function Footer() {
 
                 <a
                   target="_blank"
-                  href={"https://www.instagram.com/"}
+                  href={"https://www.instagram.com/mobiwebcreations/"}
                   rel="noreferrer"
                 >
                   <RiInstagramFill />
@@ -84,7 +109,7 @@ function Footer() {
 
                 <a
                   target="_blank"
-                  href={"https://linkedin.com/"}
+                  href={"https://in.linkedin.com/company/mobiweb-creations"}
                   rel="noreferrer"
                 >
                   <RiLinkedinBoxFill />
@@ -92,7 +117,7 @@ function Footer() {
 
                 <a
                   target="_blank"
-                  href={"https://Pinterest.com/"}
+                  href={"https://in.pinterest.com/MobiWebCreations/"}
                   rel="noreferrer"
                 >
                   <RiPinterestFill />
@@ -100,7 +125,7 @@ function Footer() {
 
                 <a
                   target="_blank"
-                  href={"https://twitter.com/"}
+                  href={"https://twitter.com/MobiWebCreation"}
                   rel="noreferrer"
                 >
                   <RiTwitterFill />
@@ -109,7 +134,7 @@ function Footer() {
             </Col>
 
             <Col sm={4}>
-              <div className="compnyprofile" >
+              <div className="compnyprofile">
                 <p>
                   <a
                     target="_blank"
@@ -141,39 +166,41 @@ function Footer() {
                 </p>
               </div>
             </Col>
-            <Col sm={4}> 
-            <div
-              className="justify-content-center   
+            <Col sm={4}>
+              <div
+                className="justify-content-center   
               text-center  allheading"
-            >
-              <h2>COMPANY PROFILE</h2>
-              <div className="pdfsty">
-                <p>
-                  <a
-                    target="_blank"
-                    href={
-                      "https://mobiwebcreations.com/assets/uploads/2020/01/MobiWeb-Creations-Digital-Marketing.pdf"
-                    }
-                    rel="noreferrer"
-                  >
-                    <RiFilePdfFill />
-                  </a>
-                </p>
+              >
+                <h2>COMPANY PROFILE</h2>
+                <div className="pdfsty">
+                  <p>
+                    <a
+                      target="_blank"
+                      href={
+                        "https://mobiwebcreations.com/assets/uploads/2020/01/MobiWeb-Creations-Digital-Marketing.pdf"
+                      }
+                      rel="noreferrer"
+                    >
+              
 
-                <p>
-                  <a
-                    target="_blank"
-                    href={
-                      "https://mobiwebcreations.com/assets/uploads/2020/01/Company-Profile-MobiWeb-Creations.pdf"
-                    }
-                    rel="noreferrer"
-                  >
-                    {" "}
-                    <RiFilePdfFill />
-                  </a>
-                </p>
+                      <FaFilePdf/>
+                    </a>
+                  </p>
+
+                  <p>
+                    <a
+                      target="_blank"
+                      href={
+                        "https://mobiwebcreations.com/assets/uploads/2020/01/Company-Profile-MobiWeb-Creations.pdf"
+                      }
+                      rel="noreferrer"
+                    >
+                  
+                       <FaFilePdf/>
+                    </a>
+                  </p>
+                </div>
               </div>
-            </div>
             </Col>
           </Row>
         </Container>

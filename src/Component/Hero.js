@@ -14,7 +14,7 @@ function Hero() {
               <h1>We offer modern solutions for growing your business</h1>
               <h2 className="pt-3">We are team of talented designers making websites with Bootstrap</h2>
                    <div className='btnhome'>
-                    <a href={"#"} alt="readme">Read More</a>
+                    <a href={"contactus"}alt="readme" rel="noreferrer">Read More</a>
                     </div>
             </Col>
             <Col sm={12} md={6} xl={6}  className="justify-content-center mt-5">

@@ -25,29 +25,43 @@ function navigation() {
             <Nav className="mynav">
               <Nav.Item>
                 <Nav.Link>
-                  <Link to="MW/">Home</Link>
+                  <Link to="/">Home</Link>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link>
-                  <Link to="MW/about"> About Us</Link>
+                  <Link to="/about"> About us</Link>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Item>
-                  <Nav.Link>
-                    <Link to="MW/service">Services</Link>
-                  </Nav.Link>
-                </Nav.Item>
+                <NavDropdown title="Services">
+                  <NavDropdown.Item>
+                    <Link to="/ios"> iOS Mobile App Development</Link> 
+                  </NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item>
+                  <Link to="/android">  Android Mobile App Development</Link> 
+                   
+                  </NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item>
+                  <Link to="/hybrid">  Hybrid Mobile App Development</Link> 
+              
+                  </NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item>
+                   <Link to="/progressiveweb">Progressive Web App Development</Link> 
+                  </NavDropdown.Item>
+                </NavDropdown>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link>
-                  <Link to="MW/blog">Blog </Link>
+                  <Link to="/blog">Blog </Link>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link>
-                  <Link to="MW/contactus">Contact Us </Link>
+                  <Link to="/contactus">Contact Us </Link>
                 </Nav.Link>
               </Nav.Item>
             </Nav>

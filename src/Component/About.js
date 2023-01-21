@@ -99,8 +99,8 @@ function About() {
                   corrupti.
                 </p>
               </div>
-              <div className="btnhome">
-                <a href="contactus">Read More</a>
+              <div className="btnhome" >
+                <a href="#">Read More</a>
               </div>
             </Col>
           </Row>

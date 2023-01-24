@@ -25,9 +25,9 @@ function Blog() {
         </Container>
       </div>
 
-      <Container>
+      <Container className="mt-5">
         <Row>
-          <Col sm={4} className="mt-2">
+          <Col sm={4} >
             <Card className="P-2 mt-2 card-box">
               <Card.Img
                 variant="top"
@@ -77,7 +77,7 @@ function Blog() {
               </Card.Body>
             </Card>
           </Col>
-        <Col sm={4} className="mt-2">
+        <Col sm={4}>
             <Card className="P-2 mt-2 card-box">
               <Card.Img
                 variant="top"
@@ -127,7 +127,7 @@ function Blog() {
               </Card.Body>
             </Card>
           </Col>
-            <Col sm={4} className="mt-2">
+            <Col sm={4} >
             <Card className="P-2 mt-2 card-box">
               <Card.Img
                 variant="top"

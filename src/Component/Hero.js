@@ -10,7 +10,7 @@ function Hero() {
         <div className="bnnr justify-content-between">
           <Container >
           <Row >
-            <Col sm={12} md={6} xl={6}  className="d-flex flex-column justify-content-center   text-padding ">
+            <Col sm={12} md={6} xl={6}  className="d-flex flex-column text-padding  pt-3">
               <h1>We offer modern solutions for growing your business</h1>
               <h2 className="pt-3">We are team of talented designers making websites with Bootstrap</h2>
                    <div className='btnhome'>

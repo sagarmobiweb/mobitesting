@@ -63,11 +63,11 @@ function Footer() {
               <div className=" allheading ">
                 <h2> OUR SERVICES</h2>
                 <ul>
-                  <li>IOS Application</li>
+                  <li>IOS </li>
                   <li>Android</li>
                   <li>Kotline</li>
                   <li>Flutter </li>
-                  <li>Ruby Rails</li>
+                  <li>Ionic</li>
                 </ul>
               </div>
             </Col>
@@ -75,9 +75,9 @@ function Footer() {
               <div className=" allheading ">
                 <h2>CONTACT US</h2>
                 <p>
-                  DEVELOPMENT OFFICE: 
-                  SCO:142-143, Cabin No 412, 4th Floor,
-                  Sector 34 A (Backside of Sham Fashion Mall), Chandigarh,
+                 <b>DEVELOPMENT OFFICE:</b> <br/>
+                  SCO : 142-143,Cabin No 412, <br/>4th Floor,
+                  Sector 34 A ,<br/>  Chandigarh,
                   INDIA, 160022
                   <p>Phone: <a  href={"tell:+918800403610"}  rel="noreferrer">+918800403610</a></p>
                   <p>Email: <a  href={"mailto:sales@mobiwebcreations.com"}  rel="noreferrer">
@@ -178,10 +178,10 @@ function Footer() {
                       target="_blank"
                       href={
                         "https://mobiwebcreations.com/assets/uploads/2020/01/MobiWeb-Creations-Digital-Marketing.pdf"
-                      }
+                 }
                       rel="noreferrer"
-                    >
-              
+                  >
+                            
 
                       <FaFilePdf/>
                     </a>

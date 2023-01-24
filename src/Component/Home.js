@@ -20,7 +20,7 @@ function Home() {
   return (
     <>
       <Hero />
-      <Container className="mb-5" data-aos="fade-up">
+      <Container className="mb-5 mt-5" data-aos="fade-up">
         <Row>
       
           <Col
@@ -47,7 +47,7 @@ function Home() {
          
           <Col
             sm={6}
-            className="padmgdty d-flex flex-column justify-content-center mt-5"
+            className="padmgdty d-flex flex-column justify-content-center "
             data-aos="fade-right"
           >
             <img src="./assets/image/aboutus-home.jpg" alt="test" />
@@ -347,7 +347,7 @@ function Home() {
                 data-aos="zoom-out"
               />
               <Card.Body>
-                <Card.Title>RUBY RAILS</Card.Title>
+                <Card.Title>IONIC</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.

@@ -7,7 +7,6 @@ import Button from "react-bootstrap/Button";
 import CountUp, { useCountUp } from "react-countup";
 import Card from "react-bootstrap/Card";
 import { BsEmojiSmile, BsJournalRichtext, BsHeadphones } from "react-icons/bs";
-import Counter from "./Counter";
 import { FaUsers } from "react-icons/fa";
 
 function About() {

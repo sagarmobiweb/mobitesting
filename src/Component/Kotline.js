@@ -1,15 +1,16 @@
-import React from "react";
+import React from 'react'
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
-
 import { Form } from "react-bootstrap";
-
 import Button from "react-bootstrap/Button";
 
-function Hybrid() {
+
+
+
+function Kotline() {
   return (
-    <>
+       <>
       <div className="bnnr2  bnnrclr justify-content-between pt-3  witeheading ">
         <Container>
           <Row>
@@ -17,7 +18,7 @@ function Hybrid() {
               sm={12}
               className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30"
             >
-              <h1> Hybrid Mobile Application Development</h1>
+              <h1>Kotline Mobile Application Development</h1>
             </Col>
           </Row>
         </Container>
@@ -30,7 +31,7 @@ function Hybrid() {
             className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30 "
           >
             <div className="content-block-about  ">
-              <h3>Best Hybrid Mobile</h3>
+              <h3>BEST Kotline Mobile</h3>
               <h2>
                 Seamlessly actualize client-based users after out-of-the-box
                 value. Globally embrace strategic data through frictionless
@@ -69,7 +70,7 @@ function Hybrid() {
             className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30 "
           >
             <div className="content-block-about  ios-left">
-              <h3>Best Android Mobile</h3>
+              <h3>BEST iOS Mobile</h3>
               <h2>
                 Seamlessly actualize client-based users after out-of-the-box
                 value. Globally embrace strategic data through frictionless
@@ -124,7 +125,7 @@ function Hybrid() {
         </Container>
       </div>
     </>
-  );
+  )
 }
 
-export default Hybrid;
+export default Kotline

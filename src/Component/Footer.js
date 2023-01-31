@@ -20,9 +20,8 @@ function Footer() {
       <div className="bgfooter ">
         <Container className="  pb-5  pt-5  pt-5">
           <Row>
-            <Col
-              sm={3}
-              className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30"
+            <Col sm={3}
+              className="pe-30"
             >
               <div className="allheading  footr-about-text ">
                 <h2>ABOUT US</h2>
@@ -38,11 +37,11 @@ function Footer() {
                 <ul className="footermenu">
                   <li>
                     {" "}
-                    <Link to="/"> Home</Link>{" "}
+                    <Link to=""> Home</Link>{" "}
                   </li>
                   <li>
                     {" "}
-                    <Link to="/aboutus"> About Us</Link>
+                    <Link to="aboutus"> About Us</Link>
                   </li>
                   <li>
                     {" "}
@@ -50,11 +49,11 @@ function Footer() {
                   </li>
                   <li>
                     {" "}
-                    <Link to="/blog"> Blog</Link>
+                    <Link to="blog"> Blog</Link>
                   </li>
                   <li>
                     {" "}
-                    <Link to="/contactus"> Contact Us</Link>
+                    <Link to="contactus"> Contact Us</Link>
                   </li>
                 </ul>
               </div>
@@ -62,12 +61,13 @@ function Footer() {
             <Col sm={3}>
               <div className=" allheading ">
                 <h2> OUR SERVICES</h2>
-                <ul>
-                  <li>IOS </li>
-                  <li>Android</li>
-                  <li>Kotline</li>
-                  <li>Flutter </li>
-                  <li>Ionic</li>
+                <ul className="footermenu">
+                  <li> <Link to="ios">IOS</Link> </li>
+                  <li> <Link to="android">Android</Link> </li>
+                  <li> <Link to="kotline">Kotline</Link> </li>
+                  <li> <Link to="flutter">Flutter</Link> </li>
+                  <li> <Link to="ionic">Ionic</Link> </li>
+             
                 </ul>
               </div>
             </Col>
@@ -132,7 +132,6 @@ function Footer() {
                 </a>
               </div>
             </Col>
-
             <Col sm={4}>
               <div className="compnyprofile">
                 <p>

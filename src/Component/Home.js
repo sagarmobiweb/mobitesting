@@ -24,8 +24,8 @@ function Home() {
         <Row>
       
           <Col
-            sm={6}
-            className=" padmgdty d-flex flex-column justify-content-center  align-self-center text-padding  "
+            sm={12} md={12} xl={6} 
+            className=" padmgdty d-flex flex-column justify-content-center  align-self-center text-padding"
           >
             <div className="clrbluebg">
             <div className="content-block-about  ">
@@ -46,7 +46,7 @@ function Home() {
           </Col>
          
           <Col
-            sm={6}
+           sm={12} md={12} xl={6} 
             className="padmgdty d-flex flex-column justify-content-center "
             data-aos="fade-right"
           >

@@ -1,45 +1,30 @@
-import React from "react";
-import {
-  RiFacebookCircleFill,
-  RiInstagramFill,
-  RiLinkedinBoxFill,
-  RiPinterestFill,
-  RiTwitterFill,
-} from "react-icons/ri";
 
+import { RiFacebookCircleFill, RiInstagramFill,RiLinkedinBoxFill,RiPinterestFill,RiTwitterFill,} from "react-icons/ri";
 import { Container, Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import { Form } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import { useForm } from "react-hook-form";
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 function Contactus() {
-  const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors },
-  } = useForm();
+  
+const form = useRef();
 
-  const onSubmit = async (data) => {
-    const { name, email, number, message } = data;
-    try {
-      const templateParams = {
-        name,
-        email,
-        number,
-        message,
-      };
-      await email.send(
-        process.env.user_twJMhT1XLr7XXXXXXXXXX,
-        process.env.hexpower_temp,
-        templateParams,
-        process.env.REACT_APP_USER_ID
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_h7gves3', 'template_7735ybr', form.current, 'SVhxKz2VRK35Lqxhz')
+      .then((result) => {
+          console.log(result.text);
+            alert("SUCCESS!");
+      }, 
+      (error) => {
+          console.log(error.text);
+              alert("FAILED...", error);
+      }
       );
-      reset();
-    } catch (e) {
-      console.log(e);
-    }
+      e.target.reset("alert")
   };
 
   return (
@@ -61,116 +46,42 @@ function Contactus() {
 
       <Container className="mt-5 -flex flex-column justify-content-center  align-self-center">
         <Row>
-          <Col sm={6}>
-            <div className="ContactForm">
-              <div className="container">
-                <div className="row">
-                  <div className="col-12 text-center">
-                    <div className="contactForm">
-                      <form
-                        id="contact-form"
-                        onSubmit={handleSubmit(onSubmit)}
-                        noValidate
-                      >
-                        {/* Row 1 of form */}
-                        <div className="row formRow">
-                          <div className="col-6">
-                            <input
-                              type="text"
-                              name="name"
-                              {...register("name", {
-                                required: {
-                                  value: true,
-                                  message: "Please enter your name",
-                                },
-                                maxLength: {
-                                  value: 30,
-                                  message: "Please use 30 characters or less",
-                                },
-                              })}
-                              className="form-control formInput"
-                              placeholder="Name"
-                            ></input>
-                            {errors.name && (
-                              <span className="errorMessage">
-                                {errors.name.message}
-                              </span>
-                            )}
-                          </div>
-                          <div className="col-6">
-                            <input
-                              type="email"
-                              name="email"
-                              {...register("email", {
-                                required: true,
-                                pattern:
-                                  /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
-                              })}
-                              className="form-control formInput"
-                              placeholder="Email address"
-                            ></input>
-                            {errors.email && (
-                              <span className="errorMessage">
-                                Please enter a valid email address
-                              </span>
-                            )}
-                          </div>
-                        </div>
-                        {/* Row 2 of form */}
-                        <div className="row formRow">
-                          <div className="col">
-                            <input
-                              type="text"
-                              name="number"
-                              {...register("number", {
-                                required: {
-                                  value: true,
-                                  message: "Please enter a number",
-                                },
-                                maxLength: {
-                                  value: 10,
-                                  message: "Number cannot exceed 10 Digit",
-                                },
-                              })}
-                              className="form-control formInput"
-                              placeholder="number"
-                            ></input>
-                            {errors.number && (
-                              <span className="errorMessage">
-                                {errors.number.message}
-                              </span>
-                            )}
-                          </div>
-                        </div>
-                        {/* Row 3 of form */}
-                        <div className="row formRow">
-                          <div className="col">
-                            <textarea
-                              rows={3}
-                              name="message"
-                              {...register("message", {
-                                required: true,
-                              })}
-                              className="form-control formInput"
-                              placeholder="Message"
-                            ></textarea>
-                            {errors.message && (
-                              <span className="errorMessage">
-                                Please enter a message
-                              </span>
-                            )}
-                          </div>
-                        </div>
-                        <button className="submit-btn" type="submit">
-                          Submit
-                        </button>
-                      </form>
-                    </div>
-                  </div>
+       <Col sm={6}>
+              <div className="subscribebtn">
+                <div className="allheading ourvalues  ">
+                  <h3>Contact us</h3>
+                  <h2>
+                    Connect with us for <br></br>more information
+                  </h2>
                 </div>
+                <Form ref={form} onSubmit={sendEmail}className="mt-3">
+                  <Form.Group className="mb-3" controlId="formBasicrtext">
+                    <Form.Control type="text"   name="name" id="name"placeholder="Name" />
+                  </Form.Group>
+                  <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Control type="email"  name="email" id="email" placeholder="Email" />
+                  </Form.Group>
+                  <Form.Group className="mb-3" controlId="formBasicNumber">
+                    <Form.Control type="number"  name="phone" id="phone" placeholder="Phone" />
+                  </Form.Group>
+
+                  <Form.Group className="mb-3" controlId="formBasicTextarea">
+                    <Form.Control
+                      as="textarea"
+                      type="text"
+                      placeholder="Message"
+                      name="message"
+                      id="text"
+                    />
+                  </Form.Group>
+
+                  <Button className="cntbtn" type="submit">
+                    Send
+                  </Button>
+                </Form>
               </div>
-            </div>
-          </Col>
+            </Col>
+          
           <Col sm={6}>
             <div className="imgcnt">
               <img
@@ -181,7 +92,7 @@ function Contactus() {
               ></img>
             </div>
 
-            <div className=" allheading   addresdetails">git
+            <div className=" allheading   addresdetails">
               <p>
                 Address : MobiWeb Creations, #6B3, Block 4, Kent Mahal, Infopark
                 Rd, Kakkanad, Kerala 682303
@@ -245,13 +156,10 @@ function Contactus() {
             </div>
           </Col>
         </Row>
-
-        <Row>
-          <Col col sm={12}></Col>
-        </Row>
       </Container>
     </>
   );
 }
+
 
 export default Contactus;

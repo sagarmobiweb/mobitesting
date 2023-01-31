@@ -25,43 +25,62 @@ function navigation() {
             <Nav className="mynav">
               <Nav.Item>
                 <Nav.Link>
-                  <Link to="/">Home</Link>
+                  <Link to="">Home</Link>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link>
-                  <Link to="/about"> About us</Link>
+                  <Link to="about"> About us</Link>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <NavDropdown title="Services">
                   <NavDropdown.Item>
-                    <Link to="/ios"> iOS Mobile App Development</Link> 
+                    <Link to="ios"> iOS Mobile App Development</Link>
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item>
-                  <Link to="/android">  Android Mobile App Development</Link> 
-                   
+                    <Link to="android"> Android Mobile App Development</Link>
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item>
-                  <Link to="/hybrid">  Hybrid Mobile App Development</Link> 
-              
+                    <Link to="hybrid"> Hybrid Mobile App Development</Link>
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item>
-                   <Link to="/progressiveweb">Progressive Web App Development</Link> 
+                    <Link to="progressiveweb">
+                      Progressive Web App Development
+                    </Link>
                   </NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item>
+                    <Link to="flutter">Flutter Mobile App Development</Link>
+                  </NavDropdown.Item>
+
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item>
+                    <Link to="ionic">Ionic Mobile App Development</Link>
+                  </NavDropdown.Item>
+
+                      <NavDropdown.Divider />
+                  <NavDropdown.Item>
+                    <Link to="kotline">Kotline Mobile App Development</Link>
+                  </NavDropdown.Item>
+
+
+
+
+
                 </NavDropdown>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link>
-                  <Link to="/blog">Blog </Link>
+                  <Link to="blog">Blog </Link>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link>
-                  <Link to="/contactus">Contact Us </Link>
+                  <Link to="contactus">Contact Us </Link>
                 </Nav.Link>
               </Nav.Item>
             </Nav>

@@ -7,7 +7,7 @@ import { Form } from "react-bootstrap";
 
 import Button from "react-bootstrap/Button";
 
-function Hybrid() {
+function Ionic() {
   return (
     <>
       <div className="bnnr2  bnnrclr justify-content-between pt-3  witeheading ">
@@ -17,7 +17,7 @@ function Hybrid() {
               sm={12}
               className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30"
             >
-              <h1> Hybrid Mobile Application Development</h1>
+              <h1>iOS Mobile Application Development</h1>
             </Col>
           </Row>
         </Container>
@@ -30,7 +30,7 @@ function Hybrid() {
             className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30 "
           >
             <div className="content-block-about  ">
-              <h3>Best Hybrid Mobile</h3>
+              <h3>BEST iOS Mobile</h3>
               <h2>
                 Seamlessly actualize client-based users after out-of-the-box
                 value. Globally embrace strategic data through frictionless
@@ -69,7 +69,7 @@ function Hybrid() {
             className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30 "
           >
             <div className="content-block-about  ios-left">
-              <h3>Best Android Mobile</h3>
+              <h3>BEST iOS Mobile</h3>
               <h2>
                 Seamlessly actualize client-based users after out-of-the-box
                 value. Globally embrace strategic data through frictionless
@@ -127,4 +127,4 @@ function Hybrid() {
   );
 }
 
-export default Hybrid;
+export default Ionic;

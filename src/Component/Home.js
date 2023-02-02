@@ -372,12 +372,26 @@ function Home() {
                   </h2>
                 </div>
                 <Form className="mt-3">
-                  <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Control type="text" placeholder="Name" />
+                  <Form.Group className="mb-3" controlId="formBasicrtext">
+                    <Form.Control type="text"   name="name" id="name"placeholder="Name" />
                   </Form.Group>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Control type="email" placeholder="Email" />
+                    <Form.Control type="email"  name="email" id="email" placeholder="Email" />
                   </Form.Group>
+                  <Form.Group className="mb-3" controlId="formBasicNumber">
+                    <Form.Control type="number"  name="phone" id="phone" placeholder="Phone" />
+                  </Form.Group>
+
+                  <Form.Group className="mb-3" controlId="formBasicTextarea">
+                    <Form.Control
+                      as="textarea"
+                      type="text"
+                      placeholder="Message"
+                      name="message"
+                      id="text"
+                    />
+                  </Form.Group>
+
                   <Button className="cntbtn" type="submit">
                     Send
                   </Button>

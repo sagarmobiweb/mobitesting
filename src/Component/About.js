@@ -19,7 +19,7 @@ function About() {
             sm={6}
             className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30 "
           >
-            <div className="content-block-about  ">
+            <div className="content-block-about ">
               <h3>WHO WE ARE</h3>
               <h2>Dolores est repellat corrupti reprehenderit.</h2>
               <p>
@@ -61,19 +61,19 @@ function About() {
           </Col>
           <Col
             sm={6}
-            className="d-flex flex-column justify-content-center mt-5"
+            className="d-flex flex-column justify-content-center  mt-5   "
             data-aos="fade-left"
           >
             <img src="./assets/image/aboutus-home.jpg" alt="test" />
           </Col>
         </Row>
       </Container>
-      <div className="whatwedo">
-        <Container className="mt-5" data-aos="fade-up">
+      <div className="whatwedo pt-5  pb-5 mt-5">
+        <Container  data-aos="fade-up">
           <Row>
             <Col
               sm={6}
-              className="d-flex flex-column justify-content-center mt-5  pe-5"
+              className="d-flex flex-column justify-content-center  pe-5"
               data-aos="fade-right bgimg"
             >
               <img
@@ -84,7 +84,7 @@ function About() {
 
             <Col
               sm={6}
-              className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-5"
+              className="d-flex flex-column justify-content-center  align-self-center text-padding  pt-5 pe-5"
             >
               <div className="content-block-about  clrwhtwedo">
                 <h3 style={{ color: "#fff" }}>WHAT WE DO</h3>
@@ -136,7 +136,7 @@ function About() {
         </Row>
       </Container>
 
-      <div className="cbcnt  cntus-bg">
+      <div className="cbcnt  cntus-bg mt-5">
         <Container className="mt-5 -flex flex-column justify-content-center  align-self-center">
           <Row>
             <Col sm={5}>
@@ -147,13 +147,27 @@ function About() {
                     Connect with us for <br></br>more information
                   </h2>
                 </div>
-                <Form className="mt-3">
-                  <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Control type="text" placeholder="Name" />
+                 <Form className="mt-3">
+                  <Form.Group className="mb-3" controlId="formBasicrtext">
+                    <Form.Control type="text"   name="name" id="name"placeholder="Name" />
                   </Form.Group>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Control type="email" placeholder="Email" />
+                    <Form.Control type="email"  name="email" id="email" placeholder="Email" />
                   </Form.Group>
+                  <Form.Group className="mb-3" controlId="formBasicNumber">
+                    <Form.Control type="number"  name="phone" id="phone" placeholder="Phone" />
+                  </Form.Group>
+
+                  <Form.Group className="mb-3" controlId="formBasicTextarea">
+                    <Form.Control
+                      as="textarea"
+                      type="text"
+                      placeholder="Message"
+                      name="message"
+                      id="text"
+                    />
+                  </Form.Group>
+
                   <Button className="cntbtn" type="submit">
                     Send
                   </Button>

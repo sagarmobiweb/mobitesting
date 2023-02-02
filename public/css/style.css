@@ -28,8 +28,8 @@ h6 {
 p {
   font-family: "Nunito", sans-serif;
   font-size: 15px;
-  margin-bottom: 5px!important;
-  margin-top: 5px!important;
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
 }
 
 h1 {
@@ -198,8 +198,7 @@ p {
 }
 
 .navbar-nav a {
-  color: #fff !important;
-
+  color: #000 !important;
   padding-left: 20px !important;
   text-decoration: unset;
   font-family: "Nunito", sans-serif;
@@ -207,7 +206,9 @@ p {
 }
 
 nav.navbar {
-  background-color: #00264c;
+  /* background-color: #00264c; */
+  background-color: #fff;
+
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -277,7 +278,7 @@ input {
 }
 
 .dropdown-menu.show {
-  background-color: #00264c;
+  background-color: #fff;
 }
 
 .dropdown-menu[data-bs-popper] {
@@ -287,6 +288,8 @@ input {
 
 .dropdown-item:hover {
   background-color: #315a83 !important;
+  color: #fff !important;
+  transition: 0.5s;
 }
 
 .valuescard .card {
@@ -440,7 +443,7 @@ input {
 
 .whatwedo {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   background: linear-gradient(198deg,
       rgb(2 0 36 / 60%) -6%,
       rgb(9 9 121) 35%,
@@ -465,8 +468,8 @@ h1 {
 
 .ios-left {
 
-padding-right: 0px;
-padding-left: 95px;
+  padding-right: 0px;
+  padding-left: 95px;
 }
 
 .cntstripbtn {
@@ -477,10 +480,12 @@ padding-left: 95px;
 .addresdetails {
   padding-left: 51px;
 }
+
 ul.footermenu li a {
   color: #000;
   text-decoration: none;
 }
+
 .allheading a {
   text-decoration: none;
 }
@@ -488,40 +493,100 @@ ul.footermenu li a {
 span.errorMessage {
   color: #ff0808;
 }
+
+.navbar-toggler-icon {
+  background-image: url(/assets/image/menutoggle.png) !important;
+}
+
+
+
+
+
 @media only screen and (max-width: 767px) and (min-width: 320px) {
+
+  .ios-left {
+    padding-top: 30px !important;
+    padding-left: 0px;
+  }
+
   .bnnr {
-    height: 76rem;
+    height: auto;
   }
 
   .bnnr img {
     width: 100%;
   }
-  .content-block-about{
+
+  .content-block-about {
     padding-right: 0px;
+  }
+
+  .witeheading h1 {
+    padding-top: 0px;
+  }
+
+  .social {
+    justify-content: center;
+  }
+
+  .bnnr2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+  }
+
+  .addresdetails {
+    padding-left: 0px;
   }
 }
 
 @media only screen and (max-width: 999px) and (min-width:768px) {
-.tabimage img{
- max-width: 50%!important;
-  position: absolute;
-  top: 19rem;
-  right: 3rem;
-}
-.features img {
-  max-width: 100%;
-  height: auto;
-}
-.allheading h2 {
-  font-size: 30px;
-}
-}
 
-@media only screen and (max-width: 1439px) and (min-width:1024px) {
-.tabimage img {
+  .ios-left {
+
+    padding-left: 0px;
+  }
+
+  .content-block-about {
+    padding-right: 0px;
+  }
+
+
+  .witeheading h1 {
+    padding-top: 0px;
+  }
+
+  .tabimage img {
     max-width: 50% !important;
     position: absolute;
     top: 19rem;
     right: 3rem;
   }
+
+  .features img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .allheading h2 {
+    font-size: 30px;
+  }
+
+  .allheading.footr-about-text {
+    padding-right: 0rem;
+  }
+
+  .allheading h2 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width:999px) {
+  .tabimage img {
+    max-width: 50% !important;
+    position: absolute;
+    top: 19rem;
+    right: 3rem;
+  }
+
 }

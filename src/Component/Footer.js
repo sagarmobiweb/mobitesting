@@ -41,7 +41,7 @@ function Footer() {
                   </li>
                   <li>
                     {" "}
-                    <Link to="aboutus"> About Us</Link>
+                    <Link to="aboutus"> About us</Link>
                   </li>
                   <li>
                     {" "}
@@ -53,7 +53,7 @@ function Footer() {
                   </li>
                   <li>
                     {" "}
-                    <Link to="contactus"> Contact Us</Link>
+                    <Link to="contactus"> Contact us</Link>
                   </li>
                 </ul>
               </div>
@@ -62,7 +62,7 @@ function Footer() {
               <div className=" allheading ">
                 <h2> OUR SERVICES</h2>
                 <ul className="footermenu">
-                  <li> <Link to="ios">IOS</Link> </li>
+                  <li> <Link to="ios">Ios</Link> </li>
                   <li> <Link to="android">Android</Link> </li>
                   <li> <Link to="kotline">Kotline</Link> </li>
                   <li> <Link to="flutter">Flutter</Link> </li>
@@ -80,9 +80,9 @@ function Footer() {
                   Sector 34 A ,<br/>  Chandigarh,
                   INDIA, 160022
                   <p>Phone: <a  href={"tell:+918800403610"}  rel="noreferrer">+918800403610</a></p>
-                  <p>Email: <a  href={"mailto:sales@mobiwebcreations.com"}  rel="noreferrer">
+                  <span>Email: <a href={"mailto:sales@mobiwebcreations.com"}  rel="noreferrer">
                      sales@mobiwebcreations.com
-                </a></p>
+                </a></span>
                 </p>
               </div>
             </Col>

@@ -17,7 +17,7 @@ function Hero() {
                     <a href={"contactus"}alt="readme" rel="noreferrer">Read More</a>
                     </div>
             </Col>
-            <Col sm={12} md={6} xl={6}  className="justify-content-center mt-md-5  tabimage ">
+            <Col sm={12} md={6} xl={6}  className="justify-content-center mt-5  mt-md-5  tabimage ">
               <img src="./assets/image/lefthero-img.png" alt="test" />
             </Col>
   

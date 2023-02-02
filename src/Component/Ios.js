@@ -10,7 +10,7 @@ import Button from "react-bootstrap/Button";
 function Ios() {
   return (
     <>
-      <div className="bnnr2  bnnrclr justify-content-between pt-3  witeheading ">
+      <div className="bnnr2  bnnrclr justify-content-between pt-3  witeheading   ">
         <Container>
           <Row>
             <Col
@@ -23,10 +23,10 @@ function Ios() {
         </Container>
       </div>
 
-      <Container className="mt-5" data-aos="fade-up">
-        <Row>
+      <Container className="mt-5"  data-aos="fade-up">
+        <Row >
           <Col
-            sm={6}
+          sm={6} md={6}  xl={6} 
             className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30 "
           >
             <div className="content-block-about  ">
@@ -48,8 +48,8 @@ function Ios() {
             </div>
           </Col>
           <Col
-            sm={6}
-            className="d-flex flex-column justify-content-center mt-5"
+            sm={6} md={6}  xl={6} 
+            className="d-flex flex-column justify-content-center mt-5 "
             data-aos="fade-left"
           >
             <img src="./assets/image/testimgss.jpg" alt="test" />

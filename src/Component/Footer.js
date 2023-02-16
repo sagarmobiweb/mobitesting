@@ -17,12 +17,10 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <>
-      <div className="bgfooter ">
+      <div className="bgfooter">
         <Container className="  pb-5  pt-5  pt-5">
           <Row>
-            <Col sm={3}
-              className="pe-30"
-            >
+            <Col sm={3} className="pe-30">
               <div className="allheading  footr-about-text ">
                 <h2>ABOUT US</h2>
                 <p>
@@ -36,23 +34,18 @@ function Footer() {
                 <h2>USEFUL LINKS</h2>
                 <ul className="footermenu">
                   <li>
-                    {" "}
-                    <Link to=""> Home</Link>{" "}
+                    <Link to="home"> Home</Link>
                   </li>
                   <li>
-                    {" "}
-                    <Link to="aboutus"> About us</Link>
+                    <Link to="about"> About us</Link>
                   </li>
                   <li>
-                    {" "}
-                    <Link to="/service"> Services</Link>
+                    <Link to="service"> Services</Link>
                   </li>
                   <li>
-                    {" "}
                     <Link to="blog"> Blog</Link>
                   </li>
                   <li>
-                    {" "}
                     <Link to="contactus"> Contact us</Link>
                   </li>
                 </ul>
@@ -62,12 +55,21 @@ function Footer() {
               <div className=" allheading ">
                 <h2> OUR SERVICES</h2>
                 <ul className="footermenu">
-                  <li> <Link to="ios">Ios</Link> </li>
-                  <li> <Link to="android">Android</Link> </li>
-                  <li> <Link to="kotline">Kotline</Link> </li>
-                  <li> <Link to="flutter">Flutter</Link> </li>
-                  <li> <Link to="ionic">Ionic</Link> </li>
-             
+                  <li>
+                    <Link to="ios">Ios</Link>
+                  </li>
+                  <li>
+                    <Link to="android">Android</Link>
+                  </li>
+                  <li>
+                    <Link to="kotline">Kotline</Link>
+                  </li>
+                  <li>
+                    <Link to="flutter">Flutter</Link>
+                  </li>
+                  <li>
+                    <Link to="ionic">Ionic</Link>
+                  </li>
                 </ul>
               </div>
             </Col>
@@ -75,21 +77,30 @@ function Footer() {
               <div className=" allheading ">
                 <h2>CONTACT US</h2>
                 <p>
-                 <b>DEVELOPMENT OFFICE:</b> <br/>
-                  SCO : 142-143,Cabin No 412, <br/>4th Floor,
-                  Sector 34 A ,<br/>  Chandigarh,
-                  INDIA, 160022
-                  <p>Phone: <a  href={"tell:+918800403610"}  rel="noreferrer">+918800403610</a></p>
-                  <span>Email: <a href={"mailto:sales@mobiwebcreations.com"}  rel="noreferrer">
-                     sales@mobiwebcreations.com
-                </a></span>
+                  <b>DEVELOPMENT OFFICE:</b> <br />
+                  SCO : 142-143,Cabin No 412, <br />
+                  4th Floor, Sector 34 A ,<br /> Chandigarh, INDIA, 160022
+                  <p>
+                    Phone:
+                    <a href={"tell:+918800403610"} rel="noreferrer">
+                      +918800403610
+                    </a>
+                  </p>
+                  <span>
+                    Email:
+                    <a
+                      href={"mailto:sales@mobiwebcreations.com"}
+                      rel="noreferrer"
+                    >
+                      sales@mobiwebcreations.com
+                    </a>
+                  </span>
                 </p>
               </div>
             </Col>
           </Row>
           <Row className="mt-5">
             <Col sm={4}>
-              {" "}
               <div className="social">
                 <a
                   target="_blank"
@@ -177,12 +188,10 @@ function Footer() {
                       target="_blank"
                       href={
                         "https://mobiwebcreations.com/assets/uploads/2020/01/MobiWeb-Creations-Digital-Marketing.pdf"
-                 }
+                      }
                       rel="noreferrer"
-                  >
-                            
-
-                      <FaFilePdf/>
+                    >
+                      <FaFilePdf />
                     </a>
                   </p>
 
@@ -194,8 +203,7 @@ function Footer() {
                       }
                       rel="noreferrer"
                     >
-                  
-                       <FaFilePdf/>
+                      <FaFilePdf />
                     </a>
                   </p>
                 </div>
@@ -214,7 +222,7 @@ function Footer() {
               text-center
             >
               <p className="pt-3">
-                © Copyright 2022. All Rights Reserved Designed by{" "}
+                © Copyright 2022. All Rights Reserved Designed by
                 <a target="_blank" href={"https://mobiwebcreations.com/"}>
                   MobiWeb Creations
                 </a>

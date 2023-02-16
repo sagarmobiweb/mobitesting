@@ -1,5 +1,6 @@
 {
   "name": "mobiwebcreations",
+  "homepage": "https://mobiweb.tech/MWold",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
+    "axios": "^1.3.1",
     "bootstrap": "^5.2.3",
     "emailjs": "^4.0.1",
     "emailjs-com": "^3.2.0",

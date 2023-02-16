@@ -3,66 +3,84 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
+
 function navigation() {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg"  variant="dark"  fixed="top">
+    <Navbar collapseOnSelect expand="lg"  fixed="top">
         <Container>
-          <Navbar.Brand href="#home">
-            
-            <img
-              className="d-inline-block"
-              src="./assets/image/Mobiweblogo.jpg"
-              alt="MobiWebCreations"
-            />
+          <Navbar.Brand>
+            <Link to="MWold/">
+              <img
+                className="d-inline-block"
+                src="./assets/image/logomobiweb.png"
+                alt="MobiWebCreations"
+              />
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="navsty">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="about">About us</Nav.Link>
-              <NavDropdown title="Services" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="iOS">
-                  Ios Mobile App Development
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="android">
-                  Android Mobile App Development
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="hybrid">
-                  Hybrid Mobile App Development
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="progressiveweb">
-                  
-                  Progressive Web App Development
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="flutter ">
-                  
-                  Flutter Mobile App Development
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="ionic">
-                  
-                  Ionic Mobile App Development
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="kotline">
-                  
-                  Kotline Mobile App Development
-                </NavDropdown.Item>
-          
-             
-              </NavDropdown>
-              <Nav.Link href="blog">Blog</Nav.Link>
-              <Nav.Link href="contactus ">Contact us</Nav.Link>
+            <Nav className="mynav">
+              <Nav.Item>
+                <Nav.Link>
+                  <Link to="MWold/">Home</Link>
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link>
+                  <Link to="MWold/about"> About us</Link>
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <NavDropdown title="Services">
+                  <NavDropdown.Item>
+                    <Link to="MWold/ios"> iOS Mobile App Development</Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item>
+                    <Link to="MWold/android"> Android Mobile App Development</Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item>
+                    <Link to="MWold/hybrid"> Hybrid Mobile App Development</Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item>
+                    <Link to="MWold/progressiveweb">
+                      Progressive Web App Development
+                    </Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item>
+                    <Link to="MWold/flutter">Flutter Mobile App Development</Link>
+                  </NavDropdown.Item>
+
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item>
+                    <Link to="MWold/ionic">Ionic Mobile App Development</Link>
+                  </NavDropdown.Item>
+
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item>
+                    <Link to="MWold/kotline">Kotline Mobile App Development</Link>
+                  </NavDropdown.Item>
+                </NavDropdown>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link>
+                  <Link to="MWold/blog">Blog </Link>
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link>
+                  <Link to="MWold/contactus">Contact Us </Link>
+                </Nav.Link>
+              </Nav.Item>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    
     </>
   );
 }

@@ -126,4 +126,4 @@ function Progressiveweb() {
   )
 }
 
-export default Progressiveweb
+export default Progressiveweb;

@@ -16,6 +16,7 @@ import Progressiveweb from "./Component/Progressiveweb";
 import Flutter from "./Component/Flutter";
 import Ionic from "./Component/Ionic";
 import Kotline from "./Component/Kotline";
+import Books from "./Component/Books";
 
 function App() {
   useEffect(() => {
@@ -26,19 +27,19 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="blog" element={<Blog />} />
-        <Route path="contactus" element={<Contactus />} />
-        <Route path="service" element={<Service />} />
-        <Route path="ios" element={<Ios />} />
-           <Route path="android" element={<Android />} />
-        <Route path="flutter" element={<Flutter />} />
-         <Route path="ionic" element={<Ionic />} />
-            <Route path="kotline" element={<Kotline />} />
-        <Route path="hybrid" element={<Hybrid />} />
-        <Route path="progressiveweb" element={<Progressiveweb />} />
-
+        <Route path="MWold/" element={<Home />} />
+        <Route path="MWold/about" element={<About />} />
+        <Route path="MWold/blog" element={<Blog />} />
+        <Route path="MWold/contactus" element={<Contactus />} />
+        <Route path="MWold/service" element={<Service />} />
+        <Route path="MWold/ios" element={<Ios />} />
+        <Route path="MWold/android" element={<Android />} />
+        <Route path="MWold/flutter" element={<Flutter />} />
+        <Route path="MWold/ionic" element={<Ionic />} />
+        <Route path="MWold/kotline" element={<Kotline />} />
+        <Route path="MWold/hybrid" element={<Hybrid />} />
+        <Route path="MWold/progressiveweb" element={<Progressiveweb />} />
+        <Route path="MWold/books" element={<Books />} />
       </Routes>
       <Footer />
     </BrowserRouter>

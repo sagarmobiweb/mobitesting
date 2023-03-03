@@ -8,6 +8,7 @@ import { HiOutlineUser } from "react-icons/hi";
 import { MdOutlineWatchLater } from "react-icons/md";
 import { FaRegCommentDots, FaWeight } from "react-icons/fa";
 import { BiRightArrowCircle } from "react-icons/bi";
+import Detailblog from "./blog-detail-page/Detailblog";
 
 function Blog() {
   return (
@@ -25,24 +26,23 @@ function Blog() {
         </Container>
       </div>
 
-      <Container className="mt-5">
+      <Container className="mt-5 blogbtn  blog-card">
         <Row>
-          <Col sm={4} >
-            <Card className="P-2 mt-2 card-box">
+          <Col sm={4}>
+            <Card className="P-2 mt-2 card-box ">
               <Card.Img
                 variant="top"
-                src="./assets/image/blog-img.jpg"
+                src="./assets/image/blogimg/snap-blog.jpg"
                 alt="test"
               />
               <Card.Body>
                 <Card.Title>
-                  Dolorum optio tempore voluptas dignissimos cumque fuga qui
-                  quibusdam quia
+                  How much does it cost to create a Snapchat-like app?
                 </Card.Title>
                 <div className="icnsty mt-3  mb-3">
                   <span className="pe-2 ">
                     <HiOutlineUser style={{ height: "20px", width: "20px" }} />
-                    John Doe
+                    Admin
                   </span>
 
                   <span className="pe-2">
@@ -56,13 +56,12 @@ function Blog() {
                     <FaRegCommentDots
                       style={{ height: "20px", width: "20px" }}
                     />
-                    12 
+                    12
                   </span>
                 </div>
                 <Card.Text>
-                  Similique neque nam consequuntur ad non maxime aliquam quas.
-                  Quibusdam animi praesentium. Aliquam et laboriosam eius aut
-                  nostrum quidem aliquid dicta.
+                  Snapchat is a popular social media platform that allows users
+                  to share images and short videos with friends and followers.
                 </Card.Text>
                 <Card.Text>
                   <BiRightArrowCircle
@@ -71,13 +70,17 @@ function Blog() {
                   />
                   IOS Mobile Application
                 </Card.Text>
-                <Button className="cntbtnsty mt-3" type="submit" >
+                <Button
+                  href="detailblog"
+                  className="cntbtnsty mt-3"
+                  type="submit"
+                >
                   Read More
                 </Button>
               </Card.Body>
             </Card>
           </Col>
-        <Col sm={4}>
+          <Col sm={4}>
             <Card className="P-2 mt-2 card-box">
               <Card.Img
                 variant="top"
@@ -86,8 +89,7 @@ function Blog() {
               />
               <Card.Body>
                 <Card.Title>
-                  Dolorum optio tempore voluptas dignissimos cumque fuga qui
-                  quibusdam quia
+                  Dolorum optio tempore voluptas dignissimos
                 </Card.Title>
                 <div className="icnsty mt-3  mb-3">
                   <span className="pe-2 ">
@@ -106,7 +108,7 @@ function Blog() {
                     <FaRegCommentDots
                       style={{ height: "20px", width: "20px" }}
                     />
-                    12 
+                    12
                   </span>
                 </div>
                 <Card.Text>
@@ -127,7 +129,7 @@ function Blog() {
               </Card.Body>
             </Card>
           </Col>
-            <Col sm={4} >
+          <Col sm={4}>
             <Card className="P-2 mt-2 card-box">
               <Card.Img
                 variant="top"
@@ -136,8 +138,7 @@ function Blog() {
               />
               <Card.Body>
                 <Card.Title>
-                  Dolorum optio tempore voluptas dignissimos cumque fuga qui
-                  quibusdam quia
+                  Dolorum optio tempore voluptas dignissimos
                 </Card.Title>
                 <div className="icnsty mt-3  mb-3">
                   <span className="pe-2 ">
@@ -156,7 +157,7 @@ function Blog() {
                     <FaRegCommentDots
                       style={{ height: "20px", width: "20px" }}
                     />
-                    12 
+                    12
                   </span>
                 </div>
                 <Card.Text>
@@ -178,7 +179,7 @@ function Blog() {
             </Card>
           </Col>
         </Row>
-   
+
         <Row>
           <Col sm={4} className="mt-2">
             <Card className="P-2 mt-2 card-box">
@@ -209,7 +210,7 @@ function Blog() {
                     <FaRegCommentDots
                       style={{ height: "20px", width: "20px" }}
                     />
-                    12 
+                    12
                   </span>
                 </div>
                 <Card.Text>
@@ -230,7 +231,7 @@ function Blog() {
               </Card.Body>
             </Card>
           </Col>
-        <Col sm={4} className="mt-2">
+          <Col sm={4} className="mt-2">
             <Card className="P-2 mt-2 card-box">
               <Card.Img
                 variant="top"
@@ -259,7 +260,7 @@ function Blog() {
                     <FaRegCommentDots
                       style={{ height: "20px", width: "20px" }}
                     />
-                    12 
+                    12
                   </span>
                 </div>
                 <Card.Text>
@@ -280,7 +281,7 @@ function Blog() {
               </Card.Body>
             </Card>
           </Col>
-            <Col sm={4} className="mt-2">
+          <Col sm={4} className="mt-2">
             <Card className="P-2 mt-2 card-box">
               <Card.Img
                 variant="top"
@@ -309,7 +310,7 @@ function Blog() {
                     <FaRegCommentDots
                       style={{ height: "20px", width: "20px" }}
                     />
-                    12 
+                    12
                   </span>
                 </div>
                 <Card.Text>

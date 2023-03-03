@@ -21,7 +21,7 @@ function Footer() {
         <Container className="  pb-5  pt-5  pt-5">
           <Row>
             <Col sm={3} className="pe-30">
-              <div className="allheading  footr-about-text ">
+              <div className="allheading  footr-about-text footer-fontsiz ">
                 <h2>ABOUT US</h2>
                 <p>
                   Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt
@@ -30,11 +30,11 @@ function Footer() {
               </div>
             </Col>
             <Col sm={3}>
-              <div className=" allheading ">
+              <div className=" allheading  footer-fontsiz">
                 <h2>USEFUL LINKS</h2>
                 <ul className="footermenu">
                   <li>
-                    <Link to="home"> Home</Link>
+                    <Link to="/"> Home</Link>
                   </li>
                   <li>
                     <Link to="about"> About us</Link>
@@ -46,53 +46,57 @@ function Footer() {
                     <Link to="blog"> Blog</Link>
                   </li>
                   <li>
+                    <Link to="casestudy"> Case Study</Link>
+                  </li>
+                  <li>
+                    <Link to="careers"> Careers</Link>
+                  </li>
+
+                  <li>
                     <Link to="contactus"> Contact us</Link>
                   </li>
                 </ul>
               </div>
             </Col>
             <Col sm={3}>
-              <div className=" allheading ">
+              <div className=" allheading  footer-fontsiz">
                 <h2> OUR SERVICES</h2>
                 <ul className="footermenu">
                   <li>
-                    <Link to="ios">Ios</Link>
+                    <Link to="ios">Ios Mobile App Development</Link>
                   </li>
                   <li>
-                    <Link to="android">Android</Link>
+                    <Link to="android">Android Mobile App Development</Link>
                   </li>
                   <li>
-                    <Link to="kotline">Kotline</Link>
+                    <Link to="kotline">Kotline Mobile App Development</Link>
                   </li>
                   <li>
-                    <Link to="flutter">Flutter</Link>
+                    <Link to="flutter">Flutter Mobile App Development</Link>
                   </li>
                   <li>
-                    <Link to="ionic">Ionic</Link>
+                    <Link to="ionic">Ionic Mobile App Development</Link>
                   </li>
                 </ul>
               </div>
             </Col>
             <Col sm={3} className="d-flex flex-column ">
-              <div className=" allheading ">
+              <div className=" allheading  footer-fontsiz ">
                 <h2>CONTACT US</h2>
                 <p>
                   <b>DEVELOPMENT OFFICE:</b> <br />
-                  SCO : 142-143,Cabin No 412, <br />
+                  SCO : 142-143, Cabin No 412, <br />
                   4th Floor, Sector 34 A ,<br /> Chandigarh, INDIA, 160022
                   <p>
-                    Phone:
+                    Phone<bdi> : </bdi>
                     <a href={"tell:+918800403610"} rel="noreferrer">
-                      +918800403610
+                      +91 880 040 3610
                     </a>
                   </p>
                   <span>
-                    Email:
-                    <a
-                      href={"mailto:sales@mobiwebcreations.com"}
-                      rel="noreferrer"
-                    >
-                      sales@mobiwebcreations.com
+                    Email<bdi> : </bdi>
+                    <a href={"mailto:info@mobiweb.tech.com"} rel="noreferrer">
+                      info@mobiweb.tech
                     </a>
                   </span>
                 </p>
@@ -186,9 +190,7 @@ function Footer() {
                   <p>
                     <a
                       target="_blank"
-                      href={
-                        "https://mobiwebcreations.com/assets/uploads/2020/01/MobiWeb-Creations-Digital-Marketing.pdf"
-                      }
+                      href={"./pdf/MobiWeb-Creations-Digital-Marketing.pdf"}
                       rel="noreferrer"
                     >
                       <FaFilePdf />
@@ -198,9 +200,7 @@ function Footer() {
                   <p>
                     <a
                       target="_blank"
-                      href={
-                        "https://mobiwebcreations.com/assets/uploads/2020/01/Company-Profile-MobiWeb-Creations.pdf"
-                      }
+                      href={"./pdf/Company-Profile-MobiWeb-Creations.pdf"}
                       rel="noreferrer"
                     >
                       <FaFilePdf />
@@ -222,8 +222,12 @@ function Footer() {
               text-center
             >
               <p className="pt-3">
-                © Copyright 2022. All Rights Reserved Designed by
-                <a target="_blank" href={"https://mobiwebcreations.com/"}>
+                © Copyright 2022. All Rights Reserved Designed by :
+                <a
+                  target="_blank"
+                  href={"https://mobiwebcreations.com/"}
+                  rel="noreferrer"
+                >
                   MobiWeb Creations
                 </a>
               </p>

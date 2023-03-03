@@ -30,29 +30,37 @@ function Hybrid() {
             className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30 "
           >
             <div className="content-block-about  ">
-              <h3>Best Hybrid Mobile</h3>
-              <h2>
-                Seamlessly actualize client-based users after out-of-the-box
-                value. Globally embrace strategic data through frictionless
-                expertise.
-              </h2>
+              <h2>Hybrid App Development</h2>
               <p>
-                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt
-                et. Inventore et et dolor consequatur itaque ut voluptate sed
-                et. Magnam nam ipsum tenetur suscipit voluptatum nam et est
-                corrupti.
+                No matter what platform your consumers and clients prefer, make
+                your software available to them. With consistent functionality
+                and user-friendly UI/UX across all devices, MobiWeb Creations
+                can assist your company in developing software.
               </p>
-            </div>
-            <div className="btnhome">
-              <a href="contactus">Read More</a>
+              <p>
+                While native applications can speed up performance and maximise
+                capabilities, web-based apps offer a more affordable approach to
+                offer platform compatibility. It can be very advantageous to
+                combine the advantages of both into a special hybrid app
+                architecture.
+              </p>
+              <p>
+                The advantages of both worlds are combined in hybrid mobile
+                application development, which expands your audience.
+              </p>
+              <b>HYBRID APP DEVELOPMENT EXPERIENCE:</b>
+              <ul>
+                <li>Project budget</li>
+                <li>Analysis of user requirements</li>
+                <li>Engineering with requirements</li>
+                <li>Prototyping</li>
+                <li>bug removal</li>
+                <li>Mobile advertising</li>
+              </ul>
             </div>
           </Col>
-          <Col
-            sm={6}
-            className="d-flex flex-column justify-content-center mt-5"
-            data-aos="fade-left"
-          >
-            <img src="./assets/image/testimgss.jpg" alt="test" />
+          <Col sm={6} className="d-flex flex-column " data-aos="fade-left">
+            <img src="./assets/image/serviceimg/hybrid-right.jpg" alt="test" />
           </Col>
         </Row>
 
@@ -62,24 +70,34 @@ function Hybrid() {
             className="d-flex flex-column justify-content-center mt-5"
             data-aos="fade-right"
           >
-            <img src="./assets/image/testimgss.jpg" alt="test" />
+            <img
+              src="./assets/image/serviceimg/hybrid-left-img.png"
+              alt="test"
+            />
           </Col>
           <Col
             sm={6}
             className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30 "
           >
             <div className="content-block-about  ios-left">
-              <h3>Best Android Mobile</h3>
               <h2>
-                Seamlessly actualize client-based users after out-of-the-box
-                value. Globally embrace strategic data through frictionless
-                expertise.
+                DISCUSS WITH ONE OF OUR HYBRID APP DEVELOPMENT SPECIALISTS
+                REGARDING:
               </h2>
               <p>
-                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt
-                et. Inventore et et dolor consequatur itaque ut voluptate sed
-                et. Magnam nam ipsum tenetur suscipit voluptatum nam et est
-                corrupti.
+                <ul>
+                  <li>Analysis and reporting</li>
+                  <li>Unique characteristics of hybrid technologies</li>
+                  <li>development and invention of architecture</li>
+                  <li>Support and upkeep</li>
+                  <li>Support and upkeep</li>
+                  <li> Promotional possibilities</li>
+                  <li>
+                    No matter the gadget your customers prefer, provide them
+                    with your brilliant idea. Trust us with the creation of your
+                    hybrid mobile applications.
+                  </li>
+                </ul>
               </p>
             </div>
           </Col>
@@ -98,14 +116,43 @@ function Hybrid() {
                   </h2>
                 </div>
                 <Form className="mt-3">
-                  <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Control type="text" placeholder="Name" />
+                  <Form.Group className="mb-3" controlId="formBasicrtext">
+                    <Form.Control
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Name"
+                    />
                   </Form.Group>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Control type="email" placeholder="Email" />
+                    <Form.Control
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Email"
+                    />
                   </Form.Group>
+                  <Form.Group className="mb-3" controlId="formBasicNumber">
+                    <Form.Control
+                      type="number"
+                      name="phone"
+                      id="phone"
+                      placeholder="Phone"
+                    />
+                  </Form.Group>
+
+                  <Form.Group className="mb-3" controlId="formBasicTextarea">
+                    <Form.Control
+                      as="textarea"
+                      type="text"
+                      placeholder="Message"
+                      name="message"
+                      id="text"
+                    />
+                  </Form.Group>
+
                   <Button className="cntbtn" type="submit">
-                    Send
+                    Submit
                   </Button>
                 </Form>
               </div>

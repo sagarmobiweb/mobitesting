@@ -1,15 +1,14 @@
-import React from 'react'
+import React from "react";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import { Form } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
-
 function Progressiveweb() {
   return (
     <>
-         <div className="bnnr2  bnnrclr justify-content-between pt-3  witeheading ">
+      <div className="bnnr2  bnnrclr justify-content-between pt-3  witeheading ">
         <Container>
           <Row>
             <Col
@@ -29,21 +28,15 @@ function Progressiveweb() {
             className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30 "
           >
             <div className="content-block-about  ">
-              <h3>Best Progressive Web App</h3>
               <h2>
-                Seamlessly actualize client-based users after out-of-the-box
-                value. Globally embrace strategic data through frictionless
-                expertise.
+                Develop next-generation Progressive web apps to please consumers
+                and boost conversions:
               </h2>
               <p>
-                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt
-                et. Inventore et et dolor consequatur itaque ut voluptate sed
-                et. Magnam nam ipsum tenetur suscipit voluptatum nam et est
-                corrupti.
+                We are a leading provider of progressive web apps, and we have
+                successfully implemented reliable and secure web app solutions
+                across all business sectors.
               </p>
-            </div>
-            <div className="btnhome">
-              <a href="contactus">Read More</a>
             </div>
           </Col>
           <Col
@@ -51,35 +44,74 @@ function Progressiveweb() {
             className="d-flex flex-column justify-content-center mt-5"
             data-aos="fade-left"
           >
-            <img src="./assets/image/testimgss.jpg" alt="test" />
+            <img
+              src="./assets/image/serviceimg/progressive-web-app.jpg"
+              alt="test"
+            />
           </Col>
         </Row>
 
-        <Row>
-          <Col
-            sm={6}
-            className="d-flex flex-column justify-content-center mt-5"
-            data-aos="fade-right"
-          >
-            <img src="./assets/image/testimgss.jpg" alt="test" />
+        <Row className="mt-5">
+          <Col sm={6} className="d-flex flex-column  " data-aos="fade-right">
+            <img
+              src="./assets/image/serviceimg/progressive-web-app.jpg"
+              alt="test"
+            />
+
+            <ul className="mt-2">
+              <li>
+                <b>Responsive : </b> <br />
+                We create solid progressive online applications that deliver
+                seamless interactivity across all browsers and devices,
+                regardless of form factors.
+              </li>
+              <li>
+                <b>User-Friendly : </b> <br /> The interface we employ for
+                Progressive web app development offers a user experience that is
+                clear and captivating and moves fluidly between smartphones and
+                tablets without any lags.
+              </li>
+
+              <li>
+                <b>Re-Engaging : </b> <br />
+                We design PWAs so that search engines can quickly find them, use
+                them offline, and display them on the home screen. They
+                incorporate push alerts to maintain user engagement among less
+                active users.
+              </li>
+            </ul>
           </Col>
-          <Col
-            sm={6}
-            className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30 "
-          >
+          <Col sm={6} className="d-flex flex-column   text-padding  pe-30 ">
             <div className="content-block-about  ios-left">
-              <h3>Best Progressive Web App</h3>
               <h2>
-                Seamlessly actualize client-based users after out-of-the-box
-                value. Globally embrace strategic data through frictionless
-                expertise.
+                Solutions for progressive web apps that are future-proof provide
+                a number of advantages:
               </h2>
               <p>
-                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt
-                et. Inventore et et dolor consequatur itaque ut voluptate sed
-                et. Magnam nam ipsum tenetur suscipit voluptatum nam et est
-                corrupti.
+                In order to create a feature-rich solution, we combine the
+                strength of Progressive web app technology with our significant
+                knowledge of developing mobile and web apps. Our developers of
+                progressive web applications offer a formidable blend of
+                technical know-how and deliver memorable experiences.
               </p>
+              <ul>
+                <li>
+                  <b>Progressive :</b> <br />
+                  Our dynamic upgrade-based PWA development services make it
+                  simple for our clients to be visible across browsers.
+                </li>
+                <li>
+                  <b>Connectivity Independent : </b> <br />
+                  We integrate service workers so that your PWA functions just
+                  as perfectly without a network as it would in a top-notch
+                  network setting.
+                </li>
+                <li>
+                  <b>Minimal data usage : </b> <br /> Your PWAs are made so that
+                  they only occupy a very little amount of the meagre internet
+                  bandwidth that users typically struggle with.
+                </li>
+              </ul>
             </div>
           </Col>
         </Row>
@@ -97,14 +129,43 @@ function Progressiveweb() {
                   </h2>
                 </div>
                 <Form className="mt-3">
-                  <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Control type="text" placeholder="Name" />
+                  <Form.Group className="mb-3" controlId="formBasicrtext">
+                    <Form.Control
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Name"
+                    />
                   </Form.Group>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Control type="email" placeholder="Email" />
+                    <Form.Control
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Email"
+                    />
                   </Form.Group>
+                  <Form.Group className="mb-3" controlId="formBasicNumber">
+                    <Form.Control
+                      type="number"
+                      name="phone"
+                      id="phone"
+                      placeholder="Phone"
+                    />
+                  </Form.Group>
+
+                  <Form.Group className="mb-3" controlId="formBasicTextarea">
+                    <Form.Control
+                      as="textarea"
+                      type="text"
+                      placeholder="Message"
+                      name="message"
+                      id="text"
+                    />
+                  </Form.Group>
+
                   <Button className="cntbtn" type="submit">
-                    Send
+                    Submit
                   </Button>
                 </Form>
               </div>
@@ -123,7 +184,7 @@ function Progressiveweb() {
         </Container>
       </div>
     </>
-  )
+  );
 }
 
 export default Progressiveweb;

@@ -23,6 +23,7 @@
     "react-router-config": "^5.1.1",
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
+    "react-share": "^4.4.1",
     "react-toastify": "^9.1.1",
     "redux": "^4.2.1",
     "useref": "^1.4.4",

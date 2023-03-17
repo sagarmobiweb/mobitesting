@@ -24,8 +24,9 @@ function Footer() {
               <div className="allheading  footr-about-text footer-fontsiz ">
                 <h2>ABOUT US</h2>
                 <p>
-                  Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt
-                  et. Inventore et et dolor consequatur itaque ut voluptate
+                  Our company was founded with the goal of providing top-notch
+                  mobile app development services to businesses of all sizes,
+                  from startups to large enterprises.
                 </p>
               </div>
             </Col>
@@ -37,23 +38,23 @@ function Footer() {
                     <Link to="/"> Home</Link>
                   </li>
                   <li>
-                    <Link to="about"> About us</Link>
+                    <Link to="about-us"> About us</Link>
                   </li>
                   <li>
-                    <Link to="service"> Services</Link>
+                    <Link to="services"> Services</Link>
                   </li>
                   <li>
                     <Link to="blog"> Blog</Link>
                   </li>
                   <li>
-                    <Link to="casestudy"> Case Study</Link>
+                    <Link to="case-study"> Case Study</Link>
                   </li>
                   <li>
                     <Link to="careers"> Careers</Link>
                   </li>
 
                   <li>
-                    <Link to="contactus"> Contact us</Link>
+                    <Link to="contact-us"> Contact us</Link>
                   </li>
                 </ul>
               </div>
@@ -63,19 +64,29 @@ function Footer() {
                 <h2> OUR SERVICES</h2>
                 <ul className="footermenu">
                   <li>
-                    <Link to="ios">Ios Mobile App Development</Link>
+                    <Link to="ios-app-development">
+                      iOS Mobile App Development
+                    </Link>
                   </li>
                   <li>
-                    <Link to="android">Android Mobile App Development</Link>
+                    <Link to="android-app-development">
+                      Android Mobile App Development
+                    </Link>
                   </li>
                   <li>
-                    <Link to="kotline">Kotline Mobile App Development</Link>
+                    <Link to="kotlin-app-development">
+                      Kotline Mobile App Development
+                    </Link>
                   </li>
                   <li>
-                    <Link to="flutter">Flutter Mobile App Development</Link>
+                    <Link to="flutter-app-development">
+                      Flutter Mobile App Development
+                    </Link>
                   </li>
                   <li>
-                    <Link to="ionic">Ionic Mobile App Development</Link>
+                    <Link to="ionic-app-development">
+                      Ionic Mobile App Development
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -95,7 +106,7 @@ function Footer() {
                   </p>
                   <span>
                     Email<bdi> : </bdi>
-                    <a href={"mailto:info@mobiweb.tech.com"} rel="noreferrer">
+                    <a href={"mailto:info@mobiweb.tech"} rel="noreferrer">
                       info@mobiweb.tech
                     </a>
                   </span>
@@ -222,7 +233,7 @@ function Footer() {
               text-center
             >
               <p className="pt-3">
-                © Copyright 2022. All Rights Reserved Designed by :
+                © Copyright 2022. All Rights Reserved. Designed by :
                 <a
                   target="_blank"
                   href={"https://mobiwebcreations.com/"}

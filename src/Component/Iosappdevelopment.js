@@ -6,8 +6,10 @@ import Container from "react-bootstrap/Container";
 import { Form } from "react-bootstrap";
 
 import Button from "react-bootstrap/Button";
+import { Card } from "react-bootstrap";
 
-function Ios() {
+
+function Iosappdevelopment() {
   return (
     <>
       <div className="bnnr2  bnnrclr justify-content-between pt-3  witeheading   ">
@@ -17,7 +19,7 @@ function Ios() {
               sm={12}
               className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30"
             >
-              <h1>Ios Mobile Application Development</h1>
+              <h1>iOS Mobile Application Development</h1>
             </Col>
           </Row>
         </Container>
@@ -40,8 +42,8 @@ function Ios() {
                 We created and developed a distinct video streaming software
                 with a fantastic user experience using AI technology.
               </p>
-              <p>
-                <b>What we do to advance your iOS app idea: </b>
+              <p className="mt-4 mb-4">
+                <b>What we do to advance your iOS app idea:</b>
                 <br />
                 he most profitable apps are those on iOS. It is understandable
                 why business owners choose to have their own iOS apps developed
@@ -52,13 +54,6 @@ function Ios() {
                   technology that are beyond your wildest dreams as a reputable
                   iPhone app development company in India & USA.
                 </p>
-                <p>
-                  We create apps for all platforms, including the iPhone,
-                  iWatch, and iPad, with a distinctive user experience. We can
-                  adapt our iOS solutions to meet the needs of particular
-                  industries. Why do we do it? Your mobile application stands
-                  out among millions by bucking the standard.
-                </p>
               </p>
             </div>
           </Col>
@@ -66,7 +61,7 @@ function Ios() {
             sm={6}
             md={6}
             xl={6}
-            className="d-flex flex-column  "
+            className="d-flex flex-column  ps-5"
             data-aos="fade-left"
           >
             <img
@@ -76,37 +71,17 @@ function Ios() {
             />
           </Col>
         </Row>
+        <p className="mt-3">
+          We create apps for all platforms, including the iPhone, iWatch, and
+          iPad, with a distinctive user experience. We can adapt our iOS
+          solutions to meet the needs of particular industries. Why do we do it?
+          Your mobile application stands out among millions by bucking the
+          standard.
+        </p>
 
         <Row className="mt-5">
           <Col sm={6} className="d-flex flex-column  ">
             <img src="./assets/image/serviceimg/ios-app-image.png" alt="test" />
-
-            <div className="imgbtm-content-text mt-2">
-              <p>
-                <b>Blockchain mobile applications:</b> Our blockchain
-                professionals excel in providing high-end & bespoke blockchain
-                app development solutions, including wallet apps, decentralized
-                applications (Apps), smart contracts, private blockchain
-                development, cryptocurrency exchange development, and
-                distributed eCommerce solutions.
-              </p>
-              <p>
-                <b>Apps for AI/ML that integrate Siri:</b>
-                <br /> The current fad is voice recognition. Our iPhone and iPad
-                app specialists ensure that all iOS apps are more humane and
-                easily connect with Siri. We stay current with the latest
-                cutting-edge artificial intelligence technology to integrate
-                your iOS apps even when iPhones and iPads undergo updates.
-              </p>
-              <p>
-                <b>Smart IoT applications:</b> <br />
-                We develop Internet of Things (IoT) technologies that support
-                WiFi and NFC protocols. We use AWS Lambda, Kinesis, and Sumerian
-                to build strong iOS applications. Our Swift developers are
-                prepared to work on industrial-strength iOS app solutions or
-                smart homes.
-              </p>
-            </div>
           </Col>
           <Col
             sm={6}
@@ -124,30 +99,96 @@ function Ios() {
                 that your idea succeeds. Are you prepared to produce apps for
                 the iPad, iPhone, or Apple TV? We're available to help you.
               </p>
-              <p>
-                <b>Develop a custom iPhone app:</b>
-                <br /> When you employ iOS app developers from our firm, you
-                gain access to a team with experience in UX/UI, coding for the
-                iOS SDK, XCode, dynamic backends or custom APIs, CoreData,
-                Apple's human interface guidelines, as well as using the
-                necessary tools to make any bespoke iOS app idea into a reality.
-              </p>
-              <p>
-                <b>Applications for Wearables:</b> <br />
-                The design of a wearable app is influenced by a variety of
-                elements, including the devices' functionality, constant
-                connectivity to the body, and associated sensors. For
-                smartwatches, fitbits, smart glasses, and other smart wearables,
-                we specialise in creating custom wearable apps.
-              </p>
-              <p>
-                <b>iOS AR/VR Apps:</b> <br />
-                Our iPhone app developers have experience with cutting-edge
-                technology and toolkits to create engaging, durable, and
-                high-tech applications. Our AR and VR development team creates
-                the best-in-class AR apps with ease using Apple's ARKit.
-              </p>
             </div>
+          </Col>
+        </Row>
+
+        <Row className="mt-5  cardbox-ios">
+          <Col sm={4}>
+            <Card>
+              <Card.Body>
+              
+                <Card.Title>Blockchain mobile applications:</Card.Title>
+                <Card.Text>
+                  Our blockchain professionals excel in providing high-end &
+                  bespoke blockchain app development solutions, including wallet
+                  apps, decentralized applications (Apps), smart contracts,
+                  private blockchain development, cryptocurrency exchange
+                  development, and distributed eCommerce solutions.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col sm={4}>
+            <Card>
+              <Card.Body>
+                <Card.Title>Apps for AI/ML that integrate Siri</Card.Title>
+                <Card.Text>
+                  The current fad is voice recognition. Our iPhone and iPad app
+                  specialists ensure that all iOS apps are more humane and
+                  easily connect with Siri. We stay current with the latest
+                  cutting-edge artificial intelligence technology to integrate
+                  your iOS apps even when iPhones and iPads undergo updates.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col sm={4}>
+            <Card>
+              <Card.Body>
+                <Card.Title>Smart IoT applications:</Card.Title>
+                <Card.Text>
+                  We develop Internet of Things (IoT) technologies that support
+                  WiFi and NFC protocols. We use AWS Lambda, Kinesis, and
+                  Sumerian to build strong iOS applications. Our Swift
+                  developers are prepared to work on industrial-strength iOS app
+                  solutions or smart homes.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <Row className="mt-5  cardbox-ios">
+          <Col sm={4}>
+            <Card>
+              <Card.Body>
+                <Card.Title>Develop a custom iPhone app</Card.Title>
+                <Card.Text>
+                  When you employ iOS app developers from our firm, you gain
+                  access to a team with experience in UX/UI, coding for the iOS
+                  SDK, XCode, dynamic backends or custom APIs, CoreData, Apple's
+                  human interface guidelines, as well as using the necessary
+                  tools to make any bespoke iOS app idea into a reality.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col sm={4}>
+            <Card>
+              <Card.Body>
+                <Card.Title>Applications for Wearables:</Card.Title>
+                <Card.Text>
+                  The design of a wearable app is influenced by a variety of
+                  elements, including the devices' functionality, constant
+                  connectivity to the body, and associated sensors. For
+                  smartwatches, fitbits, smart glasses, and other smart
+                  wearables, we specialise in creating custom wearable apps.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col sm={4}>
+            <Card>
+              <Card.Body>
+                <Card.Title>iOS AR/VR Apps:</Card.Title>
+                <Card.Text>
+                  Our iPhone app developers have experience with cutting-edge
+                  technology and toolkits to create engaging, durable, and
+                  high-tech applications. Our AR and VR development team creates
+                  the best-in-class AR apps with ease using Apple's ARKit.
+                </Card.Text>
+              </Card.Body>
+            </Card>
           </Col>
         </Row>
       </Container>
@@ -222,4 +263,4 @@ function Ios() {
   );
 }
 
-export default Ios;
+export default Iosappdevelopment;

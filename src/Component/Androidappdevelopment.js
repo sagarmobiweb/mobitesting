@@ -7,7 +7,7 @@ import { Form } from "react-bootstrap";
 
 import Button from "react-bootstrap/Button";
 
-function Android() {
+function Androidappdevelopment() {
   return (
     <>
       <div className="bnnr2  bnnrclr justify-content-between pt-3  witeheading ">
@@ -29,7 +29,7 @@ function Android() {
             sm={6}
             className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30 "
           >
-            <div className="content-block-about  ">
+            <div className="content-block-about Pe-5 ">
               <h2>Why choose us to create Android applications?</h2>
               <p>
                 One of the most popular app marketplaces is Google Play. It
@@ -39,7 +39,7 @@ function Android() {
                 development business in India & the USA, we are aware of this
                 and have created the strongest Android development team on-site.
               </p>
-              <p>
+              <p className="mt-2">
                 The end-user experience we provide is unparalleled, whether it
                 be for smartphones, wearables, or TV. By differentiating
                 ourselves on "how we do it," we sit down with our stakeholders
@@ -152,4 +152,4 @@ function Android() {
   );
 }
 
-export default Android;
+export default Androidappdevelopment;

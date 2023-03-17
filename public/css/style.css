@@ -75,7 +75,7 @@ h1 {
 }
 
 .text-padding h1 {
-  font-size: 38px;
+  font-size: 35px;
   font-weight: 700 !important;
   color: #fff;
   padding-right: 10px;
@@ -104,7 +104,7 @@ h1 {
 }
 
 .btnhome {
-  margin-top: 30px;
+  margin-top: 2rem;
   margin-bottom: 30px;
 }
 
@@ -116,6 +116,9 @@ h1 {
   color: #fff;
   background: #fb2056;
   text-decoration: unset;
+      font-size: 20px;
+        font-weight: 700;
+        font-family: 'Nunito';
 }
 
 .btnhome a:hover {
@@ -262,6 +265,9 @@ input {
 }
 
 .cntbtn {
+  font-size: 22px!important;
+    font-family: 'Nunito'!important;
+    font-weight: 700!important;
   width: 152px;
   height: 55px;
   line-height: 0;
@@ -276,12 +282,12 @@ input {
 
 .witeheading h1 {
   color: #f9f9f9;
-  padding-top: 65px;
+  padding-top: 0px;
 }
 
 .bnnr2 {
   width: 100%;
-  height: 150px;
+  height: 70px;
   /* background: url(/assets/image/testimgss.jpg) center center no-repeat; */
   background-color: #012970;
   background-size: cover;
@@ -464,7 +470,7 @@ h1 {
 
 .ios-left {
   padding-right: 0px;
-  padding-left: 95px;
+  padding-left: 58px;
 }
 
 .cntstripbtn {
@@ -507,18 +513,20 @@ span.errorMessage {
 h2.cntsty {
   font-size: 30px;
   line-height: 32px;
+
+
 }
 /***** *********************career page *********************/
 .card.career {
   box-shadow: 0px 0 5px rgb(1 41 112 / 8%);
   transition: 0.3s;
   border: none;
-  background-color: #00264c;
+  background-color: #fff;
   padding: 2rem;
 }
 
 .card-box-inner .box-1 span {
-  color: #fff;
+      color: #00264c;
 }
 /* .box-1 {
   display: flex;
@@ -532,14 +540,14 @@ h2.cntsty {
   list-style: none;
   align-items: stretch;
   padding-left: 0px;
-  /* justify-content: space-around; */
-  color: #fff;
+  /* justify-content: space-around; */  
+  color: #00264c;
 }
 .card-box-inner ul.box-2 li {
   margin-right: 10px;
 }
 .card-box-inner p {
-  color: #fff;
+  color: #00264c;
   text-align: justify;
 }
 .apply{
@@ -565,11 +573,11 @@ span.btn-dev {
 }
 
 .heading-sty {
-  font-size: 24px;
-  font-weight: 700;
-  color: #fff;
-  line-height: 40px;
-}
+    font-size: 24px;
+    font-weight: 700;
+    color: #00264c;
+    line-height: 40px;
+  }
 
 
 /***************** career page end**************** */
@@ -720,6 +728,9 @@ a.cntbtnsty {
   color: #fff;
   background-color: #e7174b;
   border: unset;
+      font-size: 18px;
+      line-height: 35px;
+      font-weight: 600;
 }
 a.cntbtnsty:hover {
   color: #ffffff;
@@ -794,7 +805,7 @@ img.card-img-top {
 }
 .whychoose .card-title{
   font-size: 13px;
-    font-weight: 700;
+    font-weight: 600;
   }
 
 .footer-fontsiz p {
@@ -817,13 +828,12 @@ img.card-img-top {
   letter-spacing: 1.1px;
 }
 .clm-size-contactus {
-  background-color: #24385d;
   padding: 0.4rem;
 }
 
 
 b.mrketing-heding {
-  color: #ffff;
+  color: #000;
   font-size: 30px;
   letter-spacing: 1.1px;
 }
@@ -841,6 +851,37 @@ b.addresty p {
 }
 .addresdetails {
   text-align: center;
+}
+.contactpage {
+  justify-content: center;
+}
+.catname-highlight{
+font-size: 18px;
+font-weight: 700;
+color: #00264c;
+}
+
+.atagstay {
+  text-decoration: none;
+  color: unset;
+}
+span.cntsty {
+font-size: 28px;
+  font-weight: 700;
+  color: #00264c;
+  line-height: 34px;
+  font-family: "Nunito", sans-serif;
+}
+.content-block-about p {
+    text-align: justify;
+}
+.padingul ul {
+  margin-top: 5px;
+  padding-left: 0px;
+}
+.padingul li {
+  padding-bottom: 13px;
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 767px) and (min-width: 320px) {

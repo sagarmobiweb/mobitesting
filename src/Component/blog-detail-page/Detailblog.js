@@ -2,6 +2,12 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 
+import { TwitterShareButton, TwitterIcon } from "react-share";
+import { FacebookShareButton, FacebookIcon } from "react-share";
+import { LinkedinShareButton, LinkedinIcon } from "react-share";
+
+
+
 
 function Detailblog() {
   return (
@@ -36,7 +42,14 @@ function Detailblog() {
               barrier for many people. In this blog, we'll explore the different
               factors that affect the cost of developing an app like Snapchat.
             </p>
-<p><img src="./assets/image/blogimg/snap-blog.jpg"  width={'100%'} alt="snapchat-img"></img></p>
+            <p>
+              <img
+                src="./assets/image/blogimg/snapchat.jpg"
+                width={"100%"}
+                height={"500px"}
+                alt="snapchat-img"
+              ></img>
+            </p>
             <p>
               <ul className="olsty-pd">
                 <li>
@@ -99,8 +112,29 @@ function Detailblog() {
               </ul>
             </p>
           </Col>
-        </Row>
 
+          <div className="btnshare">
+            <p>Share Now :</p>
+            <TwitterShareButton url={"https://www.example.com"} hashtag="#muo">
+              <TwitterIcon size={32} round />
+            </TwitterShareButton>
+            <FacebookShareButton
+              url={"https://www.example.com"}
+              quote={"Dummy text!"}
+              hashtag="#muo"
+            >
+              <FacebookIcon size={32} round />
+            </FacebookShareButton>
+
+            <LinkedinShareButton
+              url={"https://www.example.com"}
+              quote={"Dummy text!"}
+              hashtag="#muo"
+            >
+              <LinkedinIcon size={32} round />
+            </LinkedinShareButton>
+          </div>
+        </Row>
       </Container>
     </>
   );

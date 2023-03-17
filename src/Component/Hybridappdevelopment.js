@@ -7,7 +7,7 @@ import { Form } from "react-bootstrap";
 
 import Button from "react-bootstrap/Button";
 
-function Hybrid() {
+function Hybridappdevelopment() {
   return (
     <>
       <div className="bnnr2  bnnrclr justify-content-between pt-3  witeheading ">
@@ -29,7 +29,7 @@ function Hybrid() {
             sm={6}
             className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30 "
           >
-            <div className="content-block-about  ">
+            <div className="content-block-about pe-5 ">
               <h2>Hybrid App Development</h2>
               <p>
                 No matter what platform your consumers and clients prefer, make
@@ -48,27 +48,51 @@ function Hybrid() {
                 The advantages of both worlds are combined in hybrid mobile
                 application development, which expands your audience.
               </p>
-              <b>HYBRID APP DEVELOPMENT EXPERIENCE:</b>
+            </div>
+          </Col>
+          <Col sm={6} className="d-flex flex-column  ps-5" data-aos="fade-left">
+            <img src="./assets/image/serviceimg/hybrid-right.jpg" alt="test" />
+          </Col>
+        </Row>
+
+        <Row>
+          <div className="content-block-about pe-5 mt-4">
+            <h2>Hybrid App Development Experience :</h2>
+          </div>
+          <Col
+            sm={4}
+            className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30 "
+          >
+            <div className="mt-2">
               <ul>
                 <li>Project budget</li>
                 <li>Analysis of user requirements</li>
-                <li>Engineering with requirements</li>
-                <li>Prototyping</li>
-                <li>bug removal</li>
-                <li>Mobile advertising</li>
               </ul>
             </div>
           </Col>
-          <Col sm={6} className="d-flex flex-column " data-aos="fade-left">
-            <img src="./assets/image/serviceimg/hybrid-right.jpg" alt="test" />
+          <Col sm={4} className="d-flex flex-column ">
+            <div className="mt-2">
+              <ul>
+                <li>Engineering with requirements</li>
+                <li>Project budget</li>
+              </ul>
+            </div>
+          </Col>
+          <Col sm={4} className="d-flex flex-column ">
+            <div className="mt-2">
+              <ul>
+                <li>Analysis of user requirements</li>
+                <li>Engineering with requirements</li>
+              </ul>
+            </div>
           </Col>
         </Row>
 
         <Row>
           <Col
             sm={6}
-            className="d-flex flex-column justify-content-center mt-5"
-            data-aos="fade-right"
+            className="d-flex flex-column justify-content-center mt-5  p-5"
+            data-aos="fade-right "
           >
             <img
               src="./assets/image/serviceimg/hybrid-left-img.png"
@@ -77,28 +101,45 @@ function Hybrid() {
           </Col>
           <Col
             sm={6}
-            className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30 "
+            className="d-flex flex-column justify-content-center  align-self-center text-padding ps-5"
           >
-            <div className="content-block-about  ios-left">
+            <div className="content-block-about ps-5">
               <h2>
-                DISCUSS WITH ONE OF OUR HYBRID APP DEVELOPMENT SPECIALISTS
-                REGARDING:
+                Discuss With One Of Our Hybrid App Development Specialists
+                Regarding :
               </h2>
-              <p>
-                <ul>
-                  <li>Analysis and reporting</li>
-                  <li>Unique characteristics of hybrid technologies</li>
-                  <li>development and invention of architecture</li>
-                  <li>Support and upkeep</li>
-                  <li>Support and upkeep</li>
-                  <li> Promotional possibilities</li>
-                  <li>
-                    No matter the gadget your customers prefer, provide them
-                    with your brilliant idea. Trust us with the creation of your
-                    hybrid mobile applications.
-                  </li>
-                </ul>
-              </p>
+
+              <Row>
+                <Col
+                  sm={6}
+                  className="d-flex flex-column   align-self-center text-padding   "
+                >
+                  <div className="ps-2 padingul">
+                    <ul>
+                      <li>Analysis and reporting</li>
+                      <li>Unique characteristics of hybrid technologies</li>
+                      <li>development and invention of architecture</li>
+                      <li>Support and upkeep</li>
+                    </ul>
+                  </div>
+                </Col>
+
+                <Col
+                  sm={6}
+                  className="d-flex flex-column align-self-center text-padding  "
+                >
+                  <div className="ps-2 padingul">
+                    <ul>
+                      <li> Promotional possibilities</li>
+                      <li>
+                        No matter the gadget your customers prefer, provide them
+                        with your brilliant idea. Trust us with the creation of
+                        your hybrid mobile applications.
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </Row>
             </div>
           </Col>
         </Row>
@@ -174,4 +215,4 @@ function Hybrid() {
   );
 }
 
-export default Hybrid;
+export default Hybridappdevelopment;

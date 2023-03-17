@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import { Form } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
-function Progressiveweb() {
+function Progressivewebappdevelopment() {
   return (
     <>
       <div className="bnnr2  bnnrclr justify-content-between pt-3  witeheading ">
@@ -25,9 +25,9 @@ function Progressiveweb() {
         <Row>
           <Col
             sm={6}
-            className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30 "
+            className="d-flex flex-column justify-content-center  align-self-center text-padding "
           >
-            <div className="content-block-about  ">
+            <div className="content-block-about  pe-5 ">
               <h2>
                 Develop next-generation Progressive web apps to please consumers
                 and boost conversions:
@@ -57,8 +57,26 @@ function Progressiveweb() {
               src="./assets/image/serviceimg/progressive-web-app.jpg"
               alt="test"
             />
-
-            <ul className="mt-2">
+          </Col>
+          <Col sm={6} className="d-flex flex-column text-padding  pe-30 justify-content-center ">
+            <div className="content-block-about  ios-left">
+              <h2>
+                Solutions for progressive web apps that are future-proof provide
+                a number of advantages:
+              </h2>
+              <p>
+                In order to create a feature-rich solution, we combine the
+                strength of Progressive web app technology with our significant
+                knowledge of developing mobile and web apps. Our developers of
+                progressive web applications offer a formidable blend of
+                technical know-how and deliver memorable experiences.
+              </p>
+            </div>
+          </Col>
+        </Row>
+        <Row className="mt-5">
+          <Col sm={4} className="d-flex flex-column   ">
+            <ul className="mt-2 padingul">
               <li>
                 <b>Responsive : </b> <br />
                 We create solid progressive online applications that deliver
@@ -81,20 +99,15 @@ function Progressiveweb() {
               </li>
             </ul>
           </Col>
-          <Col sm={6} className="d-flex flex-column   text-padding  pe-30 ">
+          <Col sm={4} className="d-flex justify-content-center  ps-5 pe-5">
             <div className="content-block-about  ios-left">
-              <h2>
-                Solutions for progressive web apps that are future-proof provide
-                a number of advantages:
-              </h2>
-              <p>
-                In order to create a feature-rich solution, we combine the
-                strength of Progressive web app technology with our significant
-                knowledge of developing mobile and web apps. Our developers of
-                progressive web applications offer a formidable blend of
-                technical know-how and deliver memorable experiences.
-              </p>
-              <ul>
+              <img src="./assets/image/home-banner-test.png" alt="test" />
+            </div>
+          </Col>
+
+          <Col sm={4} className="d-flex flex-column  ">
+            <div className="content-block-about  ios-left">
+              <ul className="mt-2 padingul">
                 <li>
                   <b>Progressive :</b> <br />
                   Our dynamic upgrade-based PWA development services make it
@@ -187,4 +200,4 @@ function Progressiveweb() {
   );
 }
 
-export default Progressiveweb;
+export default Progressivewebappdevelopment;

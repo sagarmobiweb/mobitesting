@@ -5,8 +5,8 @@ function Video  () {
 return(
 <>
     <iframe
-      width="700"
-      height="380"
+      width="550"
+      height="310"
       src="https://www.youtube.com/embed/jszWvmznL1M"
       frameborder="0"
     /> 

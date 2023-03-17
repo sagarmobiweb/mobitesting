@@ -83,44 +83,18 @@ function Casestudydetail() {
                   <div className="icnbox-carerdetail">
                     <BiCurrentLocation style={{ fill: " #2e3c61" }} />
                     <div className="ct-p">
-                      <Card.Title>Category</Card.Title>
-                      <p>Web App</p>
+                      <Card.Title>Technology</Card.Title>
+                      <p>React Native</p>
                     </div>
                   </div>
                 </Card.Body>
-                <Card.Body>
-                  <div className="icnbox-carerdetail">
-                    <BiUser style={{ fill: " #2e3c61" }} />
-                    <div className="ct-p">
-                      <Card.Title>Client</Card.Title>
-                      <p>ASU Company</p>
-                    </div>
-                  </div>
-                </Card.Body>
+ 
 
-                <Card.Body>
-                  <div className="icnbox-carerdetail">
-                    <BiStopwatch style={{ fill: " #2e3c61" }} />
-                    <div className="ct-p">
-                      <Card.Title>Hours:</Card.Title>
-                      <p>50h / week</p>
-                    </div>
-                  </div>
-                </Card.Body>
-                <Card.Body>
-                  <div className="icnbox-carerdetail">
-                    <GiStopwatch style={{ fill: "#2e3c61" }} />
-                    <div className="ct-p">
-                      <Card.Title>Rate:</Card.Title>
-                      <p>$15 - $25 / hour</p>
-                    </div>
-                  </div>
-                </Card.Body>
                 <Card.Body>
                   <div className="icnbox-carerdetail">
                     <BiWalletAlt style={{ fill: " #2e3c61" }} />
                     <div className="ct-p">
-                      <Card.Title>Project URL:</Card.Title>
+                      <Card.Title>Project :</Card.Title>
                       <p>www.example.com</p>
                     </div>
                   </div>

@@ -7,7 +7,7 @@ import { Form } from "react-bootstrap";
 
 import Button from "react-bootstrap/Button";
 
-function Ionic() {
+function Ionicappdevelopment() {
   return (
     <>
       <div className="bnnr2  bnnrclr justify-content-between pt-3  witeheading ">
@@ -25,8 +25,8 @@ function Ionic() {
 
       <Container className="mt-5" data-aos="fade-up">
         <Row>
-          <Col sm={6} className="d-flex flex-column  text-padding  pe-30 ">
-            <div className="content-block-about  ">
+          <Col sm={6} className="d-flex flex-column  text-padding   ">
+            <div className="content-block-about  pe-5">
               <h2>Ionic App Development</h2>
               <p>
                 The powerful mobile app development platform Ionic makes it
@@ -39,31 +39,7 @@ function Ionic() {
                 the mobile market. Leading Ionic app development company MobiWeb
                 Creations assists companies in making the most of the potent
                 Ionic framework.
-                <p>
-                  To create cutting-edge mobile apps with a fluid UI, our
-                  skilled developers provide perfect Ionic application
-                  development services. As a leading provider of Ionic
-                  application development, we assist you in making the most of
-                  the Ionic platform.
-                </p>
               </p>
-              <p>
-                Being the top Ionic mobile app development company, we have
-                great experience and apply tried-and-true methods to produce
-                mobile apps that are future-proof. As a partner in Ionic mobile
-                app development, we assist you in creating performance-driven
-                apps that successfully capitalise on mobile audiences.
-              </p>
-
-              <ul className="mt-2">
-                <p>
-                  <b>Ionic Application Development Services: </b>
-                </p>
-                <li> Ionic Widget Development</li>
-                <li> Ionic Support and Maintenance </li>
-                <li> Custom Plugin Development </li>
-                <li> Hybrid App Development </li>
-              </ul>
             </div>
           </Col>
           <Col sm={6} className="d-flex flex-column  ">
@@ -72,7 +48,43 @@ function Ionic() {
               alt="test"
               data-aos="fade-left"
             />
+          </Col>
+        </Row>
 
+        <Row>
+          <Col sm={12} className="d-flex flex-column  text-padding  pe-30 ">
+            <div className="content-block-about  ">
+              <p className="mt-4">
+                To create cutting-edge mobile apps with a fluid UI, our skilled
+                developers provide perfect Ionic application development
+                services. As a leading provider of Ionic application
+                development, we assist you in making the most of the Ionic
+                platform.
+              </p>
+              <p className="mt-2">
+                Being the top Ionic mobile app development company, we have
+                great experience and apply tried-and-true methods to produce
+                mobile apps that are future-proof. As a partner in Ionic mobile
+                app development, we assist you in creating performance-driven
+                apps that successfully capitalise on mobile audiences.
+              </p>
+            </div>
+          </Col>
+        </Row>
+
+        <Row>
+          <div className="content-block-about mt-5 ">
+            <h2>Ionic Application Development Services: </h2>
+          </div>
+          <Col sm={6} className="d-flex flex-column  text-padding  pe-30 ">
+            <ul className="mt-2">
+              <li> Ionic Widget Development</li>
+              <li> Ionic Support and Maintenance </li>
+              <li> Custom Plugin Development </li>
+              <li> Hybrid App Development </li>
+            </ul>
+          </Col>
+          <Col sm={6} className="d-flex flex-column  text-padding  pe-30 ">
             <ul className="mt-2">
               <li>Ionic App Integration </li>
               <li>Ionic Enterprise App Development </li>
@@ -83,24 +95,30 @@ function Ionic() {
         </Row>
 
         <Row className="mt-5">
-          <Col
-            sm={6}
-            className="d-flex flex-column  "
-            data-aos="fade-right"
-          >
+          <Col sm={6} className="d-flex flex-column  pe-5">
             <img
               src="./assets/image/serviceimg/Ionic-Development.jpg"
               alt="test"
             />
           </Col>
-          <Col sm={6} className="d-flex flex-column   text-padding  pe-30 ">
-            <div className="content-block-about  ios-left">
+          <Col sm={6} className="d-flex flex-column   text-padding  ">
+            <div className="content-block-about  ">
               <h2>Ionic App Development Advantages:</h2>
               <p>
                 When it comes to hybrid mobile applications, Ionic framework is
                 the most popular option. Its users can take advantage of a wide
                 range of functions and components. the following are them:
               </p>
+
+            </div>
+          </Col>
+        </Row>
+
+        <Row className="mt-5">
+    
+          <Col sm={12} className="d-flex flex-column   text-padding ">
+            <div className="content-block-about ">
+      
 
               <ul>
                 <li>
@@ -174,4 +192,4 @@ function Ionic() {
   );
 }
 
-export default Ionic;
+export default Ionicappdevelopment;

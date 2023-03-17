@@ -28,7 +28,7 @@ function Casestudy() {
       >
         <Row>
           <Col sm={4} className="mt-2">
-            <a href="./Casestudydetail">
+            <a href="case-study-detail">
               <Card className="P-3">
                 <Card.Img
                   src="./assets/image/serviceimg/ios-app-image.png"
@@ -40,7 +40,7 @@ function Casestudy() {
             </a>
           </Col>
           <Col sm={4} className="mt-2">
-            <a href="./Casestudydetail">
+            <a href="case-study-detail">
               <Card className="P-3">
                 <Card.Img
                   src="./assets/image/serviceimg/kotline-app.png"
@@ -52,7 +52,7 @@ function Casestudy() {
             </a>
           </Col>
           <Col sm={4} className="mt-2">
-            <a href="./Casestudydetail">
+            <a href="case-study-detail">
               <Card className="P-3">
                 <Card.Img
                   src="./assets/image/serviceimg/reactnetivt2.png"

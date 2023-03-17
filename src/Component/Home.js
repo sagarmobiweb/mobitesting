@@ -19,6 +19,7 @@ import { Form } from "react-bootstrap";
 import Testimonial from "./Testimonial";
 import Button from "react-bootstrap/Button";
 
+
 function Home() {
   return (
     <>
@@ -44,7 +45,7 @@ function Home() {
               </div>
 
               <div className="btnhome">
-                <a href="contactus">Read More</a>
+                <a href="/about">Read More</a>
               </div>
             </div>
           </Col>
@@ -74,7 +75,7 @@ function Home() {
           <Col sm={4}>
             <Card className="mt-2">
               <div className="box">
-                <GiReceiveMoney style={{ fill: " #74c1e9ba" }} />
+                <GiReceiveMoney style={{ fill: " #5fb5e1" }} />
 
                 <Card.Body>
                   <Card.Title>Meet Your Revenue Goal</Card.Title>
@@ -85,7 +86,7 @@ function Home() {
           <Col sm={4}>
             <Card className="mt-2">
               <div className="box">
-                <Ri24HoursFill style={{ fill: " #74c1e9ba" }} />
+                <Ri24HoursFill style={{ fill: " #5fb5e1" }} />
 
                 <Card.Body>
                   <Card.Title>Less Than 24 Hours Guranteed Response</Card.Title>
@@ -96,7 +97,7 @@ function Home() {
           <Col sm={4}>
             <Card className="mt-2">
               <div className="box">
-                <BsFillTrophyFill style={{ fill: " #74c1e9ba" }} />
+                <BsFillTrophyFill style={{ fill: " #5fb5e1" }} />
 
                 <Card.Body>
                   <Card.Title>
@@ -111,7 +112,7 @@ function Home() {
           <Col sm={4}>
             <Card className="mt-2">
               <div className="box">
-                <BsBuilding style={{ fill: " #74c1e9ba" }} />
+                <BsBuilding style={{ fill: " #5fb5e1" }} />
 
                 <Card.Body>
                   <Card.Title>
@@ -124,7 +125,7 @@ function Home() {
           <Col sm={4}>
             <Card className="mt-2">
               <div className="box">
-                <AiOutlineStock style={{ fill: " #74c1e9ba" }} />
+                <AiOutlineStock style={{ fill: " #5fb5e1" }} />
 
                 <Card.Body>
                   <Card.Title>Handle Tight Deadlines</Card.Title>
@@ -135,7 +136,7 @@ function Home() {
           <Col sm={4}>
             <Card className="mt-2">
               <div className="box">
-                <RiUserStarLine style={{ fill: "#74c1e9ba" }} />
+                <RiUserStarLine style={{ fill: "#5fb5e1" }} />
 
                 <Card.Body>
                   <Card.Title>
@@ -264,167 +265,181 @@ function Home() {
             <h2>Odit est perspiciatis laborum et dicta</h2>
           </div>
         </Col>
-
         <Row>
           <Col sm={4} className="mt-2">
-            <Card className="P-3">
-              <Card.Img
-                variant="top"
-                src="./assets/image/serviceimg/ios-app-image.png"
-                alt="test"
-                className="p-4"
-                data-aos="zoom-out"
-              />
-              <Card.Body>
-                <Card.Title>IOS APPLICATION</Card.Title>
-                <Card.Text>
-                  Create iOS mobile apps with outstanding digital user
-                  experiences that easily launch on app marketplaces and
-                  generate business growth.
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <a class="atagstay" href="ios-app-development">
+              <Card className="P-3">
+                <Card.Img
+                  variant="top"
+                  src="./assets/image/serviceimg/ios-app-image.png"
+                  alt="test"
+                  className="p-4"
+                  data-aos="zoom-out"
+                />
+                <Card.Body>
+                  <Card.Title>IOS APPLICATION</Card.Title>
+                  <Card.Text>
+                    Create iOS mobile apps with outstanding digital user
+                    experiences that easily launch on app marketplaces and
+                    generate business growth.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
           <Col sm={4} className="mt-2">
-            <Card className="P-3">
-              <Card.Img
-                variant="top"
-                src="./assets/image/serviceimg/kotline-app.png"
-                alt="test"
-                className="p-3"
-                data-aos="zoom-out"
-              />
-              <Card.Body>
-                <Card.Title>ANDROID</Card.Title>
-                <Card.Text>
-                  Customized, logical, and user-friendly Android apps built
-                  within your budget will help you grow your consumer base more
-                  quickly
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <a class="atagstay" href="android-app-development">
+              <Card className="P-3">
+                <Card.Img
+                  variant="top"
+                  src="./assets/image/serviceimg/kotline-app.png"
+                  alt="test"
+                  className="p-3"
+                  data-aos="zoom-out"
+                />
+                <Card.Body>
+                  <Card.Title>ANDROID</Card.Title>
+                  <Card.Text>
+                    Customized, logical, and user-friendly Android apps built
+                    within your budget will help you grow your consumer base
+                    more quickly
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
-
           <Col sm={4} className="mt-2">
-            <Card className="P-3">
-              <Card.Img
-                variant="top"
-                src="./assets/image/serviceimg/reactnetivt2.png"
-                alt="test"
-                className="p-3"
-                data-aos="zoom-out"
-              />
-              <Card.Body>
-                <Card.Title>REACT NATIVE</Card.Title>
-                <Card.Text>
-                  Improve the UI/UX experience to increase engagement with
-                  native offline apps using the capabilities of both Android and
-                  iOS apps.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-        <Row className="mt-3">
-          <Col sm={4} className="mt-2">
-            <Card className="P-2">
-              <Card.Img
-                variant="top"
-                src="./assets/image/serviceimg/kotline-App-dev.png"
-                alt="test"
-                className="p-3"
-                data-aos="zoom-out"
-              />
-              <Card.Body>
-                <Card.Title>KOTLINE</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col sm={4} className="mt-2">
-            <Card className="P-2">
-              <Card.Img
-                variant="top"
-                src="./assets/image/serviceimg/flutter-app.png"
-                alt="test"
-                className="p-3"
-                data-aos="zoom-out"
-              />
-              <Card.Body>
-                <Card.Title>FLUTTER</Card.Title>
-                <Card.Text>
-                  With Flutter's one codebase, you can build consistent brand
-                  experiences across all platforms, delighting your people each
-                  time they use your app.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col sm={4} className="mt-2">
-            <Card className="P-2">
-              <Card.Img
-                variant="top"
-                src="./assets/image/serviceimg/ionic-app-img.png"
-                alt="test"
-                className="p-3"
-                data-aos="zoom-out"
-              />
-              <Card.Body>
-                <Card.Title>IONIC</Card.Title>
-                <Card.Text>
-                  The powerful mobile app development platform Ionic makes it
-                  simple to create hybrid apps. Having high-performing
-                  cross-platform software with native UI elements helps your
-                  business.
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <a class="atagstay" href="react-native-mobile-app-development">
+              <Card className="P-3">
+                <Card.Img
+                  variant="top"
+                  src="./assets/image/serviceimg/reactnetivt2.png"
+                  alt="test"
+                  className="p-3"
+                  data-aos="zoom-out"
+                />
+                <Card.Body>
+                  <Card.Title>REACT NATIVE</Card.Title>
+                  <Card.Text>
+                    Improve the UI/UX experience to increase engagement with
+                    native offline apps using the capabilities of both Android
+                    and iOS apps.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
         </Row>
         <Row className="mt-3">
           <Col sm={4} className="mt-2">
-            <Card className="P-2">
-              <Card.Img
-                variant="top"
-                src="./assets/image/serviceimg/hybrid-left-img.png"
-                alt="test"
-                className="p-3"
-                data-aos="zoom-out"
-              />
-              <Card.Body>
-                <Card.Title> Hybrid </Card.Title>
-                <Card.Text>
-                  No matter what platform your consumers and clients prefer,
-                  make your software available to them. With consistent
-                  functionality and user-friendly UI/UX across all devices
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <a class="atagstay" href="kotline-app-development">
+              <Card className="P-2">
+                <Card.Img
+                  variant="top"
+                  src="./assets/image/serviceimg/kotline-App-dev.png"
+                  alt="test"
+                  className="p-3"
+                  data-aos="zoom-out"
+                />
+                <Card.Body>
+                  <Card.Title>KOTLINE APPLICATION</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
 
           <Col sm={4} className="mt-2">
-            <Card className="P-2">
-              <Card.Img
-                variant="top"
-                src="./assets/image/serviceimg/pwa-app.png"
-                alt="test"
-                className="p-3"
-                data-aos="zoom-out"
-              />
-              <Card.Body>
-                <Card.Title>Progressive</Card.Title>
-                <Card.Text>
-                  We are a leading provider of progressive web apps, and we have
-                  successfully implemented reliable and secure web app solutions
-                  across all business sectors.
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <a class="atagstay" href="flutter-app-development">
+              <Card className="P-2">
+                <Card.Img
+                  variant="top"
+                  src="./assets/image/serviceimg/flutter-app.png"
+                  alt="test"
+                  className="p-3"
+                  data-aos="zoom-out"
+                />
+                <Card.Body>
+                  <Card.Title>FLUTTER APPLICATION</Card.Title>
+                  <Card.Text>
+                    With Flutter's one codebase, you can build consistent brand
+                    experiences across all platforms, delighting your people
+                    each time they use your app.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </a>
+          </Col>
+
+          <Col sm={4} className="mt-2">
+            <a class="atagstay" href="ionic-app-development">
+              <Card className="P-2">
+                <Card.Img
+                  variant="top"
+                  src="./assets/image/serviceimg/ionic-app-img.png"
+                  alt="test"
+                  className="p-3"
+                  data-aos="zoom-out"
+                />
+                <Card.Body>
+                  <Card.Title>IONIC APPLICATION</Card.Title>
+                  <Card.Text>
+                    The powerful mobile app development platform Ionic makes it
+                    simple to create hybrid apps. Having high-performing
+                    cross-platform software with native UI elements helps your
+                    business.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </a>
+          </Col>
+        </Row>
+        <Row className="mt-3">
+          <Col sm={4} className="mt-2">
+            <a class="atagstay" href="hybrid-app-development">
+              <Card className="P-2">
+                <Card.Img
+                  variant="top"
+                  src="./assets/image/serviceimg/hybrid-left-img.png"
+                  alt="test"
+                  className="p-3"
+                  data-aos="zoom-out"
+                />
+                <Card.Body>
+                  <Card.Title>HYBRID APPLICATION</Card.Title>
+                  <Card.Text>
+                    No matter what platform your consumers and clients prefer,
+                    make your software available to them. With consistent
+                    functionality and user-friendly UI/UX across all devices
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </a>
+          </Col>
+
+          <Col sm={4} className="mt-2">
+            <a class="atagstay" href="ionic-app-development">
+              <Card className="P-2">
+                <Card.Img
+                  variant="top"
+                  src="./assets/image/serviceimg/pwa-app.png"
+                  alt="test"
+                  className="p-3"
+                  data-aos="zoom-out"
+                />
+                <Card.Body>
+                  <Card.Title>PROGRESSIVE WEB APPLICATION</Card.Title>
+                  <Card.Text>
+                    We are a leading provider of progressive web apps, and we
+                    have successfully implemented reliable and secure web app
+                    solutions across all business sectors.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
 
           <Col sm={4} className="mt-2"></Col>

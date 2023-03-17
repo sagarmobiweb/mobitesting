@@ -17,17 +17,17 @@ import { Card } from "react-bootstrap";
 
 
 function Contactus() {
-  const form = useRef();
 
+  const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_h7gves3",
-        "template_7735ybr",
+        "service_ssal5zb",
+        "template_6ich9ws",
         form.current,
-        "SVhxKz2VRK35Lqxhz"
+        "CSKw0ryt_tZsuRZ3D"
       )
       .then(
         (result) => {
@@ -64,11 +64,12 @@ function Contactus() {
           <Col sm={6}>
             <div className="subscribebtn">
               <div className="allheading ourvalues  ">
-                <h2 className="cntsty">
-                  Your Project's Partner? We Are Set! Wait for awesomeness!
-                  Reach out to our professionals.
-                </h2>
-                <p>
+                <h2 className="cntsty">Your Project's Partner?</h2>
+                <span className="cntsty">
+                  We Are Set! Wait for awesomeness! Reach out to our
+                  professionals.
+                </span>
+                <p className="mt-4">
                   Contact us for all of your staffing needs and utilise our best
                   services to complete project development inside your projected
                   budget. Long-term business relationships are something we
@@ -190,12 +191,9 @@ function Contactus() {
 
         <Row className="mt-5 clm-size-contactus  p-3">
           <p>
-            <b className="mrketing-heding">MARKETING OFFICE:</b>
-            <b className="addresty">
-              <p>Address :</p>
-            </b>
+            <b className="mrketing-heding">Our Address:</b>
           </p>
-          <Col sm={2}>
+          <Col sm={3}>
             <Card className="p-2 cardssheight">
               <p>
                 <b>USA : </b>
@@ -203,7 +201,7 @@ function Contactus() {
               </p>
             </Card>
           </Col>
-          <Col sm={2}>
+          <Col sm={3}>
             <Card className="p-2 cardssheight">
               <p>
                 <b>UK : </b> <br />
@@ -211,36 +209,42 @@ function Contactus() {
               </p>
             </Card>
           </Col>
-          <Col sm={2}>
+          <Col sm={3}>
             <Card className="p-2 cardssheight">
               <p>
                 <b>AUSTRALIA : </b>
-                <br /> 2/19 Salmon Avenue, Essendon Victoria 3040 (04) 30116742
+                <br /> 2/19 Salmon Avenue, Essendon Victoria 3040 (04)30116742
               </p>
             </Card>
           </Col>
-          <Col sm={2}>
-            <Card className="p-2 cardssheight">
-            
-                <p>
-                  <b>INDIA:</b>
-                  <br /> #6B3, Block 4, Kent Mahal, Infopark Road, Kakkanad,
-                  Ernakulam, Kerala, 682303 (+91) 8800 40 3610
-                </p>
-        
-            </Card>
-          </Col>
-          <Col sm={2}>
+
+          <Col sm={3}>
             <Card className="p-2 cardssheight">
               <p>
-                <b>DEVELOPMENT OFFICE:</b>
-                <br></br> SCO : 142-143, Cabin No 412, 4th Floor, Sector 34 A ,
+                <b>INDIA:</b>
+                <br></br> SCO : 142-143, Cabin No 412, 4th Floor, Sector 34 A,
                 Chandigarh, INDIA, 160022
               </p>
             </Card>
           </Col>
         </Row>
+
+        <Row className="mt-5 clm-size-contactus  p-3"></Row>
       </Container>
+ 
+        <div className="mapsection">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d438511.1236693203!2d76.83343784916161!3d30.834360319495346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080b1f8d4aa8fd%3A0xf090e5034e3f0fa1!2sMobiWeb%20Creations!5e0!3m2!1sen!2sin!4v1678859467502!5m2!1sen!2sin"
+            width="100%"
+            height="650px"
+            style={{ border: "0" }}
+            allowfullscreen="zoom"
+            loading="lazy"
+            rel="noreferrer"
+          ></iframe>
+
+        </div>
+ 
     </>
   );
 }

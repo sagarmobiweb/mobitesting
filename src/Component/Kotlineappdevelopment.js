@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import { Form } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
-function Kotline() {
+function Kotlineappdevelopment() {
   return (
     <>
       <div className="bnnr2  bnnrclr justify-content-between pt-3  witeheading ">
@@ -48,6 +48,23 @@ function Kotline() {
                   specialised, user-friendly apps.
                 </p>
               </p>
+            </div>
+          </Col>
+          <Col sm={6} className="d-flex flex-column  justify-content-center ">
+            <img
+              src="./assets/image/serviceimg/kotline-App-dev.png"
+              alt="test"
+              data-aos="fade-left"
+            />
+          </Col>
+        </Row>
+
+        <Row>
+          <Col
+            sm={8}
+            className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30 "
+          >
+            <div className="content-block-about  ">
               <p>
                 By using the Kotlin programming language, we were able to
                 provide high-caliber solutions faster. Kotlin app developers
@@ -67,12 +84,7 @@ function Kotline() {
               </p>
             </div>
           </Col>
-          <Col sm={6} className="d-flex flex-column  justify-content-center ">
-            <img
-              src="./assets/image/serviceimg/kotline-App-dev.png"
-              alt="test"
-              data-aos="fade-left"
-            />
+          <Col sm={4} className="d-flex flex-column  ps-5">
             <div className="kotlin-image-btmtext mt-2">
               <p>
                 <b>Why should you select Kotlin? </b>
@@ -92,8 +104,28 @@ function Kotline() {
         </Row>
 
         <Row className="mt-5">
-          <Col sm={6} className="d-flex flex-column " >
-            <img src="./assets/image/serviceimg/kotline-app.png" alt="test"  data-aos="fade-right"/>
+          <Col sm={6} className="d-flex flex-column align-self-center  pe-5">
+            <img
+              src="./assets/image/serviceimg/kotline-app.png"
+              alt="test"
+              data-aos="fade-right"
+            />
+          </Col>
+          <Col sm={6} className=" align-self-center ">
+            <div className="content-block-about  justify-content-center pe-5">
+              <h2>The top Kotlin app development services</h2>
+              <p>
+                Being one of the top Kotlin app development companies, we stay
+                current on all the newest developments in this programming
+                language so that we can provide you with a solution that is
+                specifically designed to meet your company's demands.
+              </p>
+            </div>
+          </Col>
+        </Row>
+
+        <Row className="mt-5">
+          <Col sm={6} className="d-flex flex-column ">
             <ul className="mt-2 ">
               <li>
                 <b>Kotlin app maintenance: </b> <br />
@@ -117,13 +149,6 @@ function Kotline() {
           </Col>
           <Col sm={6}>
             <div className="content-block-about  ios-left">
-              <h2>The top Kotlin app development services</h2>
-              <p>
-                Being one of the top Kotlin app development companies, we stay
-                current on all the newest developments in this programming
-                language so that we can provide you with a solution that is
-                specifically designed to meet your company's demands.
-              </p>
               <ul>
                 <li>
                   <b>Mobile app development:</b> <br />
@@ -219,4 +244,5 @@ function Kotline() {
   );
 }
 
-export default Kotline;
+export default Kotlineappdevelopment;
+  

@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import { Form } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
-function Flutter() {
+function Flutterappdevelopment() {
   return (
     <>
       <div className="bnnr2  bnnrclr justify-content-between pt-3  witeheading ">
@@ -27,7 +27,7 @@ function Flutter() {
             sm={6}
             className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30 "
           >
-            <div className="content-block-about  ">
+            <div className="content-block-about pe-5 ">
               <h2>
                 Create amazing, dependable, and powerful native apps using
                 Flutter
@@ -63,7 +63,7 @@ function Flutter() {
           </Col>
           <Col
             sm={6}
-            className="d-flex flex-column justify-content-center "
+            className="d-flex flex-column justify-content-center  ps-5"
             data-aos="fade-left"
           >
             <img
@@ -76,7 +76,7 @@ function Flutter() {
         <Row>
           <Col
             sm={6}
-            className="d-flex flex-column justify-content-center mt-5"
+            className="d-flex flex-column justify-content-center mt-5 pe-5"
             data-aos="fade-right"
           >
             <img
@@ -88,7 +88,7 @@ function Flutter() {
             sm={6}
             className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30 "
           >
-            <div className="content-block-about  ios-left">
+            <div className="content-block-about  ios-left ps-5">
               <h2>
                 Flutter App Development for Businesses in Different Sectors
               </h2>
@@ -146,4 +146,4 @@ function Flutter() {
   );
 }
 
-export default Flutter;
+export default Flutterappdevelopment;

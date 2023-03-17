@@ -12,7 +12,7 @@ function navigation() {
       <Navbar collapseOnSelect expand="lg" fixed="top">
         <Container>
           <Navbar.Brand>
-            <Link to="">
+            <Link to="/">
               <img
                 className="d-inline-block"
                 src="./assets/image/logomobiweb.png"
@@ -30,46 +30,60 @@ function navigation() {
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link>
-                  <Link to="about"> About us</Link>
+                  <Link to="about-us"> About us</Link>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <NavDropdown title="Services">
                   <NavDropdown.Item>
-                    <Link to="ios_solutions">iOS Mobile App Development</Link>
+                    <Link to="ios-app-development">
+                      iOS Mobile App Development
+                    </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item>
-                    <Link to="android"> Android Mobile App Development</Link>
+                    <Link to="android-app-development">
+                      Android Mobile App Development
+                    </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item>
-                    <Link to="hybrid"> Hybrid Mobile App Development</Link>
+                    <Link to="hybrid-app-development">
+                      Hybrid Mobile App Development
+                    </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item>
-                    <Link to="progressiveweb">
+                    <Link to="progressive-web-app-development">
                       Progressive Web App Development
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item>
-                    <Link to="flutter">Flutter Mobile App Development</Link>
+                    <Link to="flutter-app-development">
+                      Flutter Mobile App Development
+                    </Link>
                   </NavDropdown.Item>
 
                   <NavDropdown.Divider />
                   <NavDropdown.Item>
-                    <Link to="ionic">Ionic Mobile App Development</Link>
+                    <Link to="ionic-app-development">
+                      Ionic Mobile App Development
+                    </Link>
                   </NavDropdown.Item>
 
                   <NavDropdown.Divider />
                   <NavDropdown.Item>
-                    <Link to="ionic">React Native Mobile App Development</Link>
+                    <Link to="react-native-mobile-app-development">
+                      React Native Mobile App Development
+                    </Link>
                   </NavDropdown.Item>
 
                   <NavDropdown.Divider />
                   <NavDropdown.Item>
-                    <Link to="kotline">Kotline Mobile App Development</Link>
+                    <Link to="kotline-app-development">
+                      Kotline Mobile App Development
+                    </Link>
                   </NavDropdown.Item>
                 </NavDropdown>
               </Nav.Item>
@@ -80,7 +94,7 @@ function navigation() {
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link>
-                  <Link to="casestudy">Case Study </Link>
+                  <Link to="case-study">Case Study </Link>
                 </Nav.Link>
               </Nav.Item>
 
@@ -89,13 +103,11 @@ function navigation() {
                   <Link to="careers">Careers</Link>
                 </Nav.Link>
               </Nav.Item>
-
               <Nav.Item>
                 <Nav.Link>
-                  <Link to="contactus">Contact us </Link>
+                  <Link to="contact-us">Contact us </Link>
                 </Nav.Link>
               </Nav.Item>
-           
             </Nav>
           </Navbar.Collapse>
         </Container>

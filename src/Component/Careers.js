@@ -46,30 +46,23 @@ function Careers() {
               <div class="card-box-inner">
                 <div class="box-1">
                   <span class="text-icon  mb-2">
-                    <MdWork style={{ fill: " #fff" }} className="pe-1" />
+                    <MdWork style={{ fill: " #00264c" }} className="pe-1" />
                     Remote - Full Time
                   </span>
                 </div>
                 <h3 className="heading-sty">Sr Frontend Developer</h3>
                 <ul className="box-2">
                   <li>
-                    <MdOutlineLocationCity
-                      style={{ fill: " #fff" }}
-                      className="pe-1"
-                    />
-                    Google
-                  </li>
-                  <li>
                     {" "}
                     <MdOutlineMyLocation
-                      style={{ fill: " #fff" }}
+                      style={{ fill: " #00264c" }}
                       className="pe-1"
                     />
                     London, UK{" "}
                   </li>
                   <li>
                     <MdAccountBalanceWallet
-                      style={{ fill: " #fff" }}
+                      style={{ fill: " #00264c" }}
                       className="pe-1"
                     />
                     $35-$45k
@@ -83,7 +76,7 @@ function Careers() {
               </div>
               <Button
                 size="40%"
-                href="./Careerdetail"
+                href="career-detail"
                 className="cntbtnsty mt-3 apply"
               >
                 Apply Now
@@ -95,7 +88,7 @@ function Careers() {
               <div class="card-box-inner">
                 <div class="box-1">
                   <span class="text-icon  mb-2">
-                    <MdWork style={{ fill: " #fff" }} className="pe-1" />
+                    <MdWork style={{ fill: " #00264c" }} className="pe-1" />
                     Remote - Full Time
                   </span>
                   <h3 className="heading-sty">Sr Backend Developer</h3>
@@ -103,23 +96,15 @@ function Careers() {
 
                 <ul className="box-2">
                   <li>
-                    <MdOutlineLocationCity
-                      style={{ fill: " #fff" }}
-                      className="pe-1"
-                    />
-                    Google
-                  </li>
-                  <li>
-                    {" "}
                     <MdOutlineMyLocation
-                      style={{ fill: " #fff" }}
+                      style={{ fill: " #00264c" }}
                       className="pe-1"
                     />
                     London, UK
                   </li>
                   <li>
                     <MdAccountBalanceWallet
-                      style={{ fill: " #fff" }}
+                      style={{ fill: " #00264c" }}
                       className="pe-1"
                     />
                     $35-$45k
@@ -132,7 +117,7 @@ function Careers() {
                 </p>
                 <Button
                   size="40%"
-                  href="./Careerdetail"
+                  href="career-detail"
                   className="cntbtnsty mt-3 apply"
                 >
                   Apply Now

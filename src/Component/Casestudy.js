@@ -5,11 +5,22 @@ import { AiFillCloseCircle } from "react-icons/ai";
 import React from "react";
 import Button from "react-bootstrap/Button";
 import "./casestudy.css";
-
+import { Helmet } from "react-helmet";
 
 function Casestudy() {
   return (
     <>
+      <Helmet>
+        <title>
+          Casestudy MobiWeb Creations - Mobile Application Development
+        </title>
+        <meta
+          name="description"
+          content="How much does it cost to create a Snapchat-like app? "
+        />
+        <meta keyword=" Casestudy us mobile app development services" />
+        <meta charset="utf-8" />
+      </Helmet>
       <div className="bnnr2  bnnrclr justify-content-between pt-3  witeheading ">
         <Container>
           <Row>

@@ -13,6 +13,8 @@ import {
 import { FaFilePdf } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
+
 
 function Footer() {
   return (
@@ -75,7 +77,7 @@ function Footer() {
                   </li>
                   <li>
                     <Link to="kotlin-app-development">
-                      Kotline Mobile App Development
+                      Kotlin Mobile App Development
                     </Link>
                   </li>
                   <li>
@@ -224,6 +226,18 @@ function Footer() {
         </Container>
       </div>
 
+      <Container className="mt-5 ">
+        <Row>
+          <FloatingWhatsApp
+            phoneNumber="
+            +918872273344"
+            notification
+            notificationSound
+            allowEsc
+            allowClickAway
+          />
+        </Row>
+      </Container>
       <div className="bg-blue justify-content-center">
         <Container>
           <Row>

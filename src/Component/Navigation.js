@@ -81,8 +81,8 @@ function navigation() {
 
                   <NavDropdown.Divider />
                   <NavDropdown.Item>
-                    <Link to="kotline-app-development">
-                      Kotline Mobile App Development
+                    <Link to="kotlin-app-development">
+                      Kotlin Mobile App Development
                     </Link>
                   </NavDropdown.Item>
                 </NavDropdown>

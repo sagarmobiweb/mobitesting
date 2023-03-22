@@ -1,15 +1,13 @@
 import React from "react";
+import { hydrate, render } from "react-dom";
 import  ReactDOM  from "react-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from "./App";
 
 
-
-
-
-ReactDOM.render(
-  <React.StrictMode>
-      <App />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+const rootElement = document.getElementById("root");
+if (rootElement.hasChildNodes()) {
+  hydrate(<App />, rootElement);
+} else {
+  render(<App />, rootElement);
+}

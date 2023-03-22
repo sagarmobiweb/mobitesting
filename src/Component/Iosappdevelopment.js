@@ -2,11 +2,8 @@ import React from "react";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
-
-import { Form } from "react-bootstrap";
-
-import Button from "react-bootstrap/Button";
 import { Card } from "react-bootstrap";
+import FooterContactform from "./FooterContactform";
 
 
 function Iosappdevelopment() {
@@ -25,7 +22,7 @@ function Iosappdevelopment() {
         </Container>
       </div>
 
-      <Container className="mt-5  peragraph-align" data-aos="fade-up">
+      <Container className="mt-5  peragraph-alignios" data-aos="fade-up">
         <Row>
           <Col
             sm={6}
@@ -107,8 +104,7 @@ function Iosappdevelopment() {
           <Col sm={4}>
             <Card>
               <Card.Body>
-              
-                <Card.Title>Blockchain mobile applications:</Card.Title>
+                <Card.Title>Blockchain mobile applications</Card.Title>
                 <Card.Text>
                   Our blockchain professionals excel in providing high-end &
                   bespoke blockchain app development solutions, including wallet
@@ -136,7 +132,7 @@ function Iosappdevelopment() {
           <Col sm={4}>
             <Card>
               <Card.Body>
-                <Card.Title>Smart IoT applications:</Card.Title>
+                <Card.Title>Smart IoT applications</Card.Title>
                 <Card.Text>
                   We develop Internet of Things (IoT) technologies that support
                   WiFi and NFC protocols. We use AWS Lambda, Kinesis, and
@@ -166,7 +162,7 @@ function Iosappdevelopment() {
           <Col sm={4}>
             <Card>
               <Card.Body>
-                <Card.Title>Applications for Wearables:</Card.Title>
+                <Card.Title>Applications for Wearables</Card.Title>
                 <Card.Text>
                   The design of a wearable app is influenced by a variety of
                   elements, including the devices' functionality, constant
@@ -180,7 +176,7 @@ function Iosappdevelopment() {
           <Col sm={4}>
             <Card>
               <Card.Body>
-                <Card.Title>iOS AR/VR Apps:</Card.Title>
+                <Card.Title>iOS AR/VR Apps</Card.Title>
                 <Card.Text>
                   Our iPhone app developers have experience with cutting-edge
                   technology and toolkits to create engaging, durable, and
@@ -193,72 +189,7 @@ function Iosappdevelopment() {
         </Row>
       </Container>
 
-      <div className="cbcnt  cntus-bg mt-5">
-        <Container className="mt-5 -flex flex-column justify-content-center  align-self-center">
-          <Row>
-            <Col sm={5}>
-              <div className="subscribebtn">
-                <div className="allheading ourvalues  ">
-                  <h3> CONTACT US</h3>
-                  <h2>
-                    Connect with us for <br></br>more information
-                  </h2>
-                </div>
-                <Form className="mt-3">
-                  <Form.Group className="mb-3" controlId="formBasicrtext">
-                    <Form.Control
-                      type="text"
-                      name="name"
-                      id="name"
-                      placeholder="Name"
-                    />
-                  </Form.Group>
-                  <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Control
-                      type="email"
-                      name="email"
-                      id="email"
-                      placeholder="Email"
-                    />
-                  </Form.Group>
-                  <Form.Group className="mb-3" controlId="formBasicNumber">
-                    <Form.Control
-                      type="number"
-                      name="phone"
-                      id="phone"
-                      placeholder="Phone"
-                    />
-                  </Form.Group>
-
-                  <Form.Group className="mb-3" controlId="formBasicTextarea">
-                    <Form.Control
-                      as="textarea"
-                      type="text"
-                      placeholder="Message"
-                      name="message"
-                      id="text"
-                    />
-                  </Form.Group>
-
-                  <Button className="cntbtn" type="submit">
-                    Submit
-                  </Button>
-                </Form>
-              </div>
-            </Col>
-            <Col sm={7}>
-              <div className="imgcnt">
-                <img
-                  center
-                  src="./assets/image/newcontn.png"
-                  data-aos="zoom-out"
-                  alt="test"
-                ></img>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+      <FooterContactform />
     </>
   );
 }

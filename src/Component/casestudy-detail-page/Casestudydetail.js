@@ -3,14 +3,9 @@ import { Col, Row } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import {
-  BiUser,
-  BiStopwatch,
   BiWalletAlt,
   BiCurrentLocation,
 } from "react-icons/bi";
-
-
-import { GiStopwatch } from "react-icons/gi";
 
 
 

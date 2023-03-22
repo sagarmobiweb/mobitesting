@@ -2,10 +2,9 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
-import { BiUser, BiStopwatch, BiWalletAlt ,BiCurrentLocation} from "react-icons/bi";
+import { BiUser, BiWalletAlt ,BiCurrentLocation} from "react-icons/bi";
 import Button from "react-bootstrap/Button";
 
-import { GiStopwatch } from "react-icons/gi";
 
 
 function Careerdetail() {

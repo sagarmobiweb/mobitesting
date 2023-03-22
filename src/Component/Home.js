@@ -15,14 +15,27 @@ import { AiOutlineStock } from "react-icons/ai";
 import { MdOutlineScreenSearchDesktop } from "react-icons/md";
 import Counter from "./Counter";
 import Hero from "./Hero";
-import { Form } from "react-bootstrap";
 import Testimonial from "./Testimonial";
-import Button from "react-bootstrap/Button";
+import FooterContactform from "./FooterContactform";
+import { Helmet } from "react-helmet";
+
+
 
 
 function Home() {
   return (
     <>
+      <Helmet>
+        <title>MobiWeb Creations - Mobile Application Development</title>
+        <meta
+          name="description"
+          content="Our goal is to help businesses and individuals turn their
+           ideas into successful mobile apps. We create innovative and
+            user-friendly mobile applications for both Android and iOS platforms."
+        />
+        <meta keyword="mobile app development services" />
+        <meta charset="utf-8" />
+      </Helmet>
       <Hero />
       <Container className="mb-5 mt-5" data-aos="fade-up">
         <Row>
@@ -34,13 +47,12 @@ function Home() {
           >
             <div className="clrbluebg">
               <div className="content-block-about  ">
-                <h3>WHO WE ARE</h3>
-                <h2>Dolores est repellat corrupti reprehenderit.</h2>
-                <p>
-                  Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt
-                  et. Inventore et et dolor consequatur itaque ut voluptate sed
-                  et. Magnam nam ipsum tenetur suscipit voluptatum nam et est
-                  corrupti.
+                <h2>WHO WE ARE</h2>
+                <p className="pt-3 pb-3 pe-4">
+                  Our company was founded with the goal of providing top-notch
+                  mobile app development services to businesses of all sizes,
+                  from startups to large enterprises We believe that a great
+                  mobile app can make a significant impact on a business.
                 </p>
               </div>
 
@@ -156,8 +168,7 @@ function Home() {
                      pe-30"
         >
           <div className="allheading ourvalues  mt-5 text-center">
-            <h3>FEATURES</h3>
-            <h2>Odit est perspiciatis laborum et dicta</h2>
+            <h2>Features</h2>
           </div>
         </Col>
         <Row className="mt-5 ">
@@ -261,8 +272,7 @@ function Home() {
           className="d-flex flex-column justify-content-center  align-self-center text-padding  pe-30"
         >
           <div className="allheading ourvalues  mt-5  mb-5 text-center">
-            <h3>SERVICES</h3>
-            <h2>Odit est perspiciatis laborum et dicta</h2>
+            <h2>Services</h2>
           </div>
         </Col>
         <Row>
@@ -448,72 +458,7 @@ function Home() {
 
       <Testimonial />
 
-      <div className="cbcnt  cntus-bg">
-        <Container className="mt-5 -flex flex-column justify-content-center  align-self-center">
-          <Row>
-            <Col sm={5}>
-              <div className="subscribebtn">
-                <div className="allheading ourvalues  ">
-                  <h3> CONTACT US</h3>
-                  <h2>
-                    Connect with us for <br></br>more information
-                  </h2>
-                </div>
-                <Form className="mt-3">
-                  <Form.Group className="mb-3" controlId="formBasicrtext">
-                    <Form.Control
-                      type="text"
-                      name="name"
-                      id="name"
-                      placeholder="Name"
-                    />
-                  </Form.Group>
-                  <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Control
-                      type="email"
-                      name="email"
-                      id="email"
-                      placeholder="Email"
-                    />
-                  </Form.Group>
-                  <Form.Group className="mb-3" controlId="formBasicNumber">
-                    <Form.Control
-                      type="number"
-                      name="phone"
-                      id="phone"
-                      placeholder="Phone"
-                    />
-                  </Form.Group>
-
-                  <Form.Group className="mb-3" controlId="formBasicTextarea">
-                    <Form.Control
-                      as="textarea"
-                      type="text"
-                      placeholder="Message"
-                      name="message"
-                      id="text"
-                    />
-                  </Form.Group>
-
-                  <Button className="cntbtn" type="submit">
-                    Submit
-                  </Button>
-                </Form>
-              </div>
-            </Col>
-            <Col sm={7}>
-              <div className="imgcnt">
-                <img
-                  center
-                  src="./assets/image/newcontn.png"
-                  data-aos="zoom-out"
-                  alt="test"
-                ></img>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+      <FooterContactform />
     </>
   );
 }

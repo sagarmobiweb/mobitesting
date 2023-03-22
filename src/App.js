@@ -15,7 +15,7 @@ import Hybridappdevelopment from "./Component/Hybridappdevelopment";
 import Progressivewebappdevelopment from "./Component/Progressivewebappdevelopment";
 import Flutterappdevelopment from "./Component/Flutterappdevelopment";
 import Ionic from "./Component/Ionicappdevelopment"; 
-import Kotlineappdevelopment from "./Component/Kotlineappdevelopment";
+import Kotlinappdevelopment from "./Component/Kotlinappdevelopment";
 import Casestudy from "./Component/Casestudy";  
 import Careers from "./Component/Careers";
 import Detailblog from "./Component/blog-detail-page/Detailblog";
@@ -23,8 +23,7 @@ import Careerdetail from "./Component/career-detail-page/Careerdetail";
 import Casestudydetail from "./Component/casestudy-detail-page/Casestudydetail";
 import Reactnativemobileappdevelopment from "./Component/Reactnativemobileappdevelopment";
 import { ScrollToTop } from "./Component/ScrollTop";
-
-
+import FooterContactform from "./Component/FooterContactform";
 
 function App() {
   useEffect(() => {
@@ -51,8 +50,8 @@ function App() {
         />
         <Route path="ionic-app-development" element={<Ionic />} />\
         <Route
-          path="kotline-app-development"
-          element={<Kotlineappdevelopment />}
+          path="kotlin-app-development"
+          element={<Kotlinappdevelopment />}
         />
         <Route
           path="hybrid-app-development"
@@ -71,8 +70,8 @@ function App() {
           path="react-native-mobile-app-development"
           element={<Reactnativemobileappdevelopment />}
         />
+        <Route path="Footer-Contact-form" element={<FooterContactform />} />
       </Routes>
-
       <Footer />
       <ScrollToTop />
     </BrowserRouter>

@@ -12,7 +12,7 @@ import Button from "react-bootstrap/Button";
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import { Card } from "react-bootstrap";
-
+import { Helmet } from "react-helmet";
 
 
 
@@ -44,6 +44,18 @@ function Contactus() {
 
   return (
     <>
+      <Helmet>
+        <title>
+          Contactus MobiWeb Creations - Mobile Application Development
+        </title>
+        <meta
+          name="description"
+          content="We Are Set! Wait for awesomeness! Reach out to our
+                  professionals. "
+        />
+        <meta keyword=" Contact us us mobile app development services" />
+        <meta charset="utf-8" />
+      </Helmet>
       <div className="cbcnt">
         <div className="bnnr2 justify-content-between pt-3 bt-5 witeheading ">
           <Container>
@@ -58,7 +70,6 @@ function Contactus() {
           </Container>
         </div>
       </div>
-
       <Container className="mt-5 align-self-center">
         <Row>
           <Col sm={6}>
@@ -83,6 +94,7 @@ function Contactus() {
                     name="name"
                     id="name"
                     placeholder="Name"
+                    required
                   />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -91,6 +103,7 @@ function Contactus() {
                     name="email"
                     id="email"
                     placeholder="Email"
+                    required
                   />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicNumber">
@@ -99,6 +112,7 @@ function Contactus() {
                     name="phone"
                     id="phone"
                     placeholder="Phone"
+                    required
                   />
                 </Form.Group>
 
@@ -231,20 +245,17 @@ function Contactus() {
 
         <Row className="mt-5 clm-size-contactus  p-3"></Row>
       </Container>
- 
-        <div className="mapsection">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d438511.1236693203!2d76.83343784916161!3d30.834360319495346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080b1f8d4aa8fd%3A0xf090e5034e3f0fa1!2sMobiWeb%20Creations!5e0!3m2!1sen!2sin!4v1678859467502!5m2!1sen!2sin"
-            width="100%"
-            height="650px"
-            style={{ border: "0" }}
-            allowfullscreen="zoom"
-            loading="lazy"
-            rel="noreferrer"
-          ></iframe>
-
-        </div>
- 
+      <div className="mapsection">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2010.1787239119444!2d76.768799349275!3d30.72183344807254!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080b1f8d4aa8fd%3A0xf090e5034e3f0fa1!2sMobiWeb%20Creations!5e0!3m2!1sen!2sin!4v1679059202339!5m2!1sen!2sin"
+          width="100%"
+          height="450px"
+          style={{ border: "0" }}
+          allowfullscreen=""
+          loading="lazy"
+          rel="noreferrer"
+        ></iframe>
+      </div>
     </>
   );
 }
